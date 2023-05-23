@@ -1,0 +1,14 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #FFBBE0;
+  }
+h1 {
+    color: #FFFBF5;
+    font-size: 64px;  
+}
+h2 {
+    color: #D90452;
+    font-size: 70px;
+}
