@@ -1,5 +1,9 @@
 import { useState } from 'react'
-import Home from './pages/Home'
+import Contact from './components/Contact'
+import Fotter from './components/Fotter'
+import Header from './components/Header'
+import Information from './components/Information'
+import NetworkButtons from './components/NetworkButtons'
 
 
 function App() {
@@ -7,7 +11,11 @@ function App() {
 
   return (
     <>
-      <Home/>
+      <Contact/>
+      <Fotter/>
+      <Header/>
+      <Information/>
+      <NetworkButtons/>
     </>
   )
 }
