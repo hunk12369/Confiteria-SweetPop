@@ -1,0 +1,107 @@
+.pagina{
+    position: relative;
+    max-width: 100%;
+    height: 3389px;
+    }
+    .pantalla{
+    position: absolute;
+    width:100%;
+    height: 788px;
+    left: 0px;
+    top: 0px;
+    background: #FFBBE0;    
+    }
+    .pantalla h1{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    left: 19px;
+    top: 230px;
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56%;
+    letter-spacing: 1px;
+    color: #FFFBF5;
+    }
+    .pantalla h2{
+    position: absolute;
+    width: 100%;
+    height: 112px;
+    left: 19px;
+    top: 281px;
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 160%;
+    letter-spacing: 1px;
+    color: #D90452;
+    }
+    .linea{
+    position: absolute;
+    width: 184px;
+    height: 0px;
+    left: 27px;
+    top: 435px;
+    border: 4px solid #D90452;
+    }
+    .subtitulo{
+    position: absolute;
+    width: 311px;
+    height: 112px;
+    left: 19px;
+    top: 281px;
+    }
+    /*.vector{
+    position: absolute;
+    left: 137.62%;
+    right: -375.93%;
+    top: 25.76%;
+    bottom: 71.73%;
+    background: #FFBEE0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-180deg);
+    }*/
+    .relleno1{
+    position: absolute;
+    left: 10.05%;
+    right: 11.21%;
+    top: 41.55%;
+    bottom: 51.28%;
+    background: #E5C8E6;
+    border-radius: 24px;
+    }
+    .relleno2{
+    position: absolute;
+    left: 10.51%;
+    right: 10.75%;
+    top: 66.8%;
+    bottom: 26.03%;
+    background: #E5C8E6;
+    border-radius: 24px;
+    }
+    .pagina img{
+    position: absolute;
+    width: 100%;
+    height: 392px;
+    left: -3px;
+    top: 379px;
+    }
+    .relleno1 img{
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+   
+    
+    }
+    .relleno2 img{
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 15px;
+        left: 5%;
+    }
+    

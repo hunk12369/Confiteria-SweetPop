@@ -37,20 +37,17 @@ h2 {
     text-decoration-color: #D90452;
     text-decoration-style: solid;
 }
-.olas {
-    width: 100%;
-    height: 200px;
-    position: relative;
+.olas-vector {
     
-    overflow: hidden;
+    width: auto;
+    height: 85px;
 }
-.ola {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 150px;
-    background: #FFBBE0;
-    clip-path: polygon(0 0, 30% 100%, 70% 100%, 100% 0);
-    border-bottom-left-radius: 100%;
-       
+.olas-vector img {
+    max-width: 100%;
+    width: auto;
+    height: max-content;
+    margin-top: -1px;
+    object-fit: fill;
+
+
 }
