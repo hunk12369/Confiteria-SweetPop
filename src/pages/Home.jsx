@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Servicios from '../components/Servicios'
+import OlasAdorno from '../components/OlasAdorno'
 const Home = () => {
   return (
     <div>
@@ -14,9 +15,7 @@ const Home = () => {
         </h2>
         <img src="/src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt="imagne del home"></img>
       </div>
-      <div className='olas-vector'>
-        <img src="/src/assets/images/Vector.png" alt="olas-vector" />
-      </div>
+      <OlasAdorno/>
 
       <div className='servicios'>
         <p>hola</p>

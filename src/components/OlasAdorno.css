@@ -1,0 +1,12 @@
+.olas-vector {
+    position: absolute;
+    width: auto;
+    height: 85px;
+}
+.olas-vector img {
+    max-width: 100%;
+    width: auto;
+    height: max-content;
+    margin-top: -1px;
+    object-fit: fill;
+}

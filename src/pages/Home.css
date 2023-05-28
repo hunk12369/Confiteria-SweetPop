@@ -37,17 +37,3 @@ h2 {
     text-decoration-color: #D90452;
     text-decoration-style: solid;
 }
-.olas-vector {
-    
-    width: auto;
-    height: 85px;
-}
-.olas-vector img {
-    max-width: 100%;
-    width: auto;
-    height: max-content;
-    margin-top: -1px;
-    object-fit: fill;
-
-
-}
