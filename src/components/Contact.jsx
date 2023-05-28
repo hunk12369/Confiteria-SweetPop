@@ -9,6 +9,9 @@ const Contact = () => {
         <h2>SweetPop</h2>
         <div className='linea'></div>
     </div>
+    <div className='olas-vector'>
+        <img src="/src/assets/images/Vector.png" alt="olas-vector" />
+        </div>
     
     <div className='relleno1'>
         <img src="src/assets/images/1.jpg" alt="" />
