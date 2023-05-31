@@ -3,9 +3,10 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 56%;
-    /* or 22px */
+    
     font-family: 'Yusei Magic', sans-serif;
     letter-spacing: 1px;
 
     color: #BE91CA;
+    margin-bottom: 30px;
 }

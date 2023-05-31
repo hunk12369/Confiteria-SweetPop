@@ -11,7 +11,6 @@ const Contactos = () => {
   return (
     <div>
         <Contact/>
-        
         <Fotter/>
         <Header/>
         <Information/>

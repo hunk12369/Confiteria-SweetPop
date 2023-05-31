@@ -2,6 +2,8 @@ import React from 'react'
 import "./Home.css"
 import Servicios from '../components/Servicios'
 import OlasAdorno from '../components/OlasAdorno'
+import Fotter from '../components/Fotter'
+import Header from '../components/Header'
 const Home = () => {
   return (
     <div>
@@ -18,9 +20,9 @@ const Home = () => {
       <OlasAdorno/>
 
       <div className='servicios'>
-        <p>hola</p>
         <Servicios/>
       </div>
+      <Fotter/>
       
     </div>
   )

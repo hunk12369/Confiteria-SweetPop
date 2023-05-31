@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Servicios.css"
+import SliderGeneral from './SliderGeneral'
 
 const Servicios = () => {
   return (
@@ -7,6 +8,7 @@ const Servicios = () => {
         <div className='titulos'>
             Categorias
         </div>
+        <SliderGeneral/>
     </div>
     
   )
