@@ -1,0 +1,34 @@
+.logoCategorias{
+position: absolute;
+width: 100%;
+height: 318px;
+top: 2877px;
+display: flex;
+
+}
+.logoGigante img{
+position: absolute;
+width: 100%;
+height: 80%;
+top: 10.25%;
+bottom: 6.58%;
+    
+}
+.lineaG1{
+position: absolute;
+width: 100%;
+
+top: 5.89%;
+bottom: 95.11%;
+
+border: 3px solid rgba(190, 145, 202, 0.8);
+}
+.lineaG2{
+position: absolute;
+width: 100%;
+
+top: 94.28%;
+bottom: 5.72%;
+
+border: 3px solid rgba(190, 145, 202, 0.8);
+}
