@@ -1,6 +1,9 @@
 import { useState } from 'react'
-import Home from './pages/Home.jsx'
+import Contact from './components/Contact'
 import Contactos from './pages/Contactos'
+
+
+
 
 
 
@@ -9,8 +12,13 @@ function App() {
 
   return (
     <>
-      <Home/>
-      
+    <div></div>
+    <Home/>
+    
+    
+     
+     
+     
     </>
   )
 }

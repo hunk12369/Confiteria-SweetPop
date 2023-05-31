@@ -2,7 +2,6 @@
     position: absolute;
     width: 100%;
     height: 393px;
-    
     top: 1708px;
     display: flex;
     flex-direction: column;
@@ -22,7 +21,7 @@
     border: 3px solid #BE91CA;
     }
     .facebook{
-    Width:387px;
+    Width:100%;
     Height:56px;
     Top:1823px;
     Left:23px;
@@ -49,7 +48,7 @@
     flex-grow: 0;
     }
     .ticktock{
-        Width:387px;
+        Width:100%;
     Height:56px;
     Top:1823px;
     Left:23px;
@@ -75,7 +74,7 @@
     flex-grow: 0;
     }
     .instagram{
-        Width:387px;
+        Width:100%;
     Height:56px;
     Top:1823px;
     Left:23px;
@@ -100,7 +99,7 @@
     order: 0;
     flex-grow: 0;}
     .twitter{
-        Width:387px;
+        Width:100%;
     Height:56px;
     Top:1823px;
     Left:23px;
