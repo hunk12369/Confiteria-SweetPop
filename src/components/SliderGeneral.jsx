@@ -55,7 +55,7 @@ const SliderGeneral = (props) => {
     <div className='tarjeta'>
         <Slider {...configuracion}>
         {categorias.map(item => (
-            <img src={item.linkImg} alt={item.descripcion} />
+            <img key={item.id} src={item.linkImg} alt={item.descripcion} />
         ))}
           
         </Slider>
