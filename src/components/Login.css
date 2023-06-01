@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+}
+body {
+position: relative;
+width: 428px;
+height: 932px;
+background: #D90452;
+}
+
+.logo img{
+    position: absolute;
+    left: 6.29%;
+    right: 81.59%;
+    top: 7.9%;
+    bottom: 86.17%;
+}
+
+.Redes{
+display: flex;
+justify-content: space-between;
+    position: absolute;
+    
+width: 232px;
+height: 45px;
+left: 108px;
+top: 830px;
+
+}
+
+
+.container .forms {
+    position: absolute;
+    width: 430px;
+    height: 777px;
+    left: -2px;
+    top: 0px;
+    background: #FFBBE0;
+
+    
+}
+
+
+
+.title {
+position: absolute;
+left: 18.86%;
+right: 8.9%;
+top: 17.35%;
+bottom: 73.93%;
+font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 42px;
+color: #D90452;
+}
+
+.text1{
+    position: absolute;
+left: 20.57%;
+right: 8.6%;
+top: 31.06%;
+bottom: 64.86%;
+
+font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+
+color: #D90452;
+
+}
+
+.text4{
+    position: absolute;
+width: 150px;
+height: 18px;
+left: 144px;
+top: 744px;
+
+font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #D90452;
+}
+
+.input-field.button {
+position:absolute;   
+width: 200.33px;
+height: 15px;
+left: 110px;
+top: 578px;
+  }
+  
+  .input-field.button input {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 25px;
+    color: #D90452;
+  
+    padding: 20px 70px;
+    background-color: #F19D9D;
+    border: none;
+    border-radius: 25.5px;
+    cursor: pointer;
+  
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-field.button input:hover {
+    background-color: #D90452;
+    color: #F19D9D;
+  }
+
+  .login-signup .text3 {
+    position: absolute;
+left: 22.66%;
+right: 25.83%;
+top: 85.37%;
+bottom: 23.99%;
+
+font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #D90452;
+  }
+
+  .login-signup .text3 a {
+position: absolute;
+left: 75.91%;
+right: 18.22%;
+top: 73.37%;
+bottom: 21.36%;
+
+font-family: 'Yusei Magic';
+font-weight: bold;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+
+color: #5e0964;
+  }
+
+.text2{
+    position: absolute;
+left: 38.8%;
+right: 7.94%;
+top: 65%;
+bottom: 42.3%;
+
+font-family: 'Yusei Magic';
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+
+color: #D90452;
+}
+.input-field {
+    position: absolute;
+  top: 427px; 
+  left: 50px; 
+  margin-bottom: 40px;
+
+  }
+  
+  .input-field input {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 5px;
+    color: #D90452;
+  
+    padding: 15px 35px;
+    background-color: #F19D9D;
+    border:#FFBBE0;
+    
+    cursor: pointer;
+  
+    
+    box-shadow: 0 2px 10px #D90452(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-field input::placeholder {
+    color: white; 
+    font-size: 17px; 
+    text-indent: 9px;
+  }
+
+  .input-field1 {
+    position: absolute;
+  top: 300px; 
+  left: 50px; 
+  margin-bottom: 40px;
+  }
+  .input-field1 img{
+    position: absolute;
+left: 3%;
+right: 83.68%;
+top: 35.3%;
+bottom: 62.66%;
+
+  }
+
+  .input-field1 input {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 5px;
+    color: #D90452;
+  
+    padding: 15px 35px;
+    background-color: #F19D9D;
+    border:#FFBBE0;
+    
+    cursor: pointer;
+  
+    
+    box-shadow: 0 3px 3px #D90452(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .lock img{
+    position: absolute;
+left: 3%;
+right: 83.71%;
+top: 35%;
+bottom: 47.02%;
+  }
+
+  .eye img{
+    position: absolute;
+left: 87%;
+right: 50%;
+top: 35%;
+bottom: 46.9%;
+  }
+
+  .input-field1 input::placeholder {
+    color: white; 
+    font-size: 17px; 
+    text-indent: 9px;
+  }
+
+.Logito{
+    position: absolute;
+left: 6.29%;
+right: 81%;
+top: 7.9%;
+bottom: 86.17%;
+}
+  
+
+
+  
+  

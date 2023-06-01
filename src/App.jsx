@@ -4,18 +4,15 @@ import Fotter from './components/Fotter'
 import Header from './components/Header'
 import Information from './components/Information'
 import NetworkButtons from './components/NetworkButtons'
-
+import Login from './components/Login'
+import CrearCuenta from './components/CrearCuenta'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Contact/>
-      <Fotter/>
-      <Header/>
-      <Information/>
-      <NetworkButtons/>
+      <Login/>
     </>
   )
 }

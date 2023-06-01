@@ -6,7 +6,7 @@ const Contact = () => {
           <div className='pantalla'>
         <h1>Contactanos</h1>
         <h2>SweetPop</h2>
-        <div className='linea'></div>
+        <div className='linea'></div>     
     </div>
     
     <div className='relleno1'>
