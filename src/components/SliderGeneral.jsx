@@ -3,11 +3,12 @@ import React from 'react'
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-//js de categorias
-import { dataCategorias } from '../assets/categorias';
+
 import "./SliderGeneral.css"
 
-const SliderGeneral = () => {
+const SliderGeneral = (props) => {
+  const {categorias}= props;
+  
   //configuración para que el slider sea responsive
   const configuracion = {
     dots: true,
@@ -16,7 +17,7 @@ const SliderGeneral = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    arrows:false,
+    arrows:true,
     responsive: [
       {
         breakpoint: 1024,
@@ -49,10 +50,12 @@ const SliderGeneral = () => {
   
   return (
     <div className='tarjeta'>
+       
         <Slider {...configuracion}>
-          {dataCategorias.map(item => (
-            <img src={item.linkImg} alt="categoria-confiteria" />
-          ))}
+        {categorias.map(item => (
+            <img src={item.linkImg} alt={item.descripcion} />
+        ))}
+          
         </Slider>
     </div>
   )

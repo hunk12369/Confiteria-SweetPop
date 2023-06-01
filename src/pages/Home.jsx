@@ -8,7 +8,7 @@ const Home = () => {
   
   return (
     <div>
-      
+      <Header/>
       <div className='home-encabezado'>
         <h1>
           INICIO
@@ -18,6 +18,7 @@ const Home = () => {
         </h2>
         <img src="/src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt="imagne del home"></img>
       </div>
+      
       <OlasAdorno/>
 
       <div className='servicios'>
