@@ -2,17 +2,17 @@
     {
         "id":1,
         "linkImg":"/src/assets/images/43604333_2154017511299724_199110358810492928_n 2.png",
-        "descripcion": "imagen torta"
+        "descripcion": "imagen dulces"
     },
     {
         "id":2,
         "linkImg":"/src/assets/images/image 87.jpg",
-        "descripcion": "imagen dulces"
+        "descripcion": "imagen pastel 2"
     },
     {
         "id":3,
         "linkImg":"/src/assets/images/48a85d33b9e9d73b5ec0859db2f5d9ae 1.png",
-        "descripcion": "imagen dona"
+        "descripcion": "imagen gatitos dulces"
     }
 
 ]

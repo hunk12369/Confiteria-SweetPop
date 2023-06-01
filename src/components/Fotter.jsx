@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Fotter.css"
-const Fotter = () => {
+const Fotter = (props) => {
   return (
     <div className='datos'>
         <div className='ubicacion'>

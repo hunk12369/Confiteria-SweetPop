@@ -1,7 +1,7 @@
 .olas-vector {
     width: auto;
     height: 85px;
-    position: relative;
+    position:static;
 }
 .olas-vector img {
     max-width: 100%;

@@ -8,16 +8,19 @@ import "./SliderGeneral.css"
 
 const SliderGeneral = (props) => {
   const {categorias}= props;
-  
+  const puntos=props.puntos;
+  const flechas=props.flechas;
+  //console.log(categorias);
+  //console.log(puntos);
   //configuración para que el slider sea responsive
   const configuracion = {
-    dots: true,
+    dots: puntos,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    arrows:true,
+    arrows:flechas,
     responsive: [
       {
         breakpoint: 1024,
@@ -50,7 +53,6 @@ const SliderGeneral = (props) => {
   
   return (
     <div className='tarjeta'>
-       
         <Slider {...configuracion}>
         {categorias.map(item => (
             <img src={item.linkImg} alt={item.descripcion} />
