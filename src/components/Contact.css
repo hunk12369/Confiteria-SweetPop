@@ -72,8 +72,8 @@
     background: #E5C8E6;
     border-radius: 24px;
     }
-    .pagina img{
-    position: absolute;
+    .fotoPortada img{
+        position: absolute;
     width: 100%;
     height: 392px;
     left: -3px;
@@ -83,9 +83,14 @@
     position: absolute;
     top: 1px;
     width: 100%;
-    height: 100%;
-   
-    
+    height: 100%; 
+    }
+    .olasContactanos{
+        position: absolute;
+        left: -1%;
+        right: 1%;
+        top: 22.60%;
+        bottom: 71.73%;
     }
     .relleno2 img{
         width: 90%;
