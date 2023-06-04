@@ -29,3 +29,20 @@
     background-image: url("/src/assets/images/Group\ 129.png");
     background-size: cover;
 }
+
+
+.slick-dots li {
+    width: 66px;
+}
+.slick-dots li.slick-active button:before {
+    color: #D90452;
+    background-color: #D90452;
+    width: 66px;
+    height: 20px;
+}
+.slick-dots li button:before {
+    color: #D90452;
+    background-color: #D90452;
+    width: 66px;
+    height: 20px;
+}
