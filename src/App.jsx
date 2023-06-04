@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <div></div>
-    <Contactos/>
+    <Ofertas/>
     </>
   )
 }
