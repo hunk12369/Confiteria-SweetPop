@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import Category from './components/Category'
 import Contact from './components/Contact'
+import Categorias from './pages/Categorias'
 import Contactos from './pages/Contactos'
+import Home from './pages/Home'
+import Ofertas from './pages/Ofertas'
+
 
 
 
@@ -14,12 +18,7 @@ function App() {
   return (
     <>
     <div></div>
-    <Category/>
-    
-    
-     
-     
-     
+    <Ofertas/>
     </>
   )
 }
