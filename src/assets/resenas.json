@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "src/assets/images/ramoCake2.png",
+        "name": "Ramo de Chocolates",
+        "text":"Fue un regalo original y muy bien recibido. Sin duda, recomendaría este ramo a cualquiera que busque sorprender a alguien con algo dulce y bonito."
+    },
+
+    {
+        "id": 2,
+        "imgsrc": "src/assets/images/tortas.jpg",
+        "name": "Tortas",
+        "text":"La torta de fresa de esta confitería es simplemente espectacular. La textura es esponjosa y suave, y el sabor es rico y chocolateado. Sin duda, la mejor torta de chocolate que he probado."
+    },
+
+    {
+        "id": 3,
+        "imgsrc": "src/assets/images/chocolates.jpg",
+        "name": "Chocolates",
+        "text":"Probé una variedad de masitas de esta confitería y quedé impresionado. La textura era perfecta, crujientes por fuera y suaves por dentro. La presentación era hermosa, con una variedad de colores y formas que hacían que cada masita se vea única."
+    }
+
+
+
+]
