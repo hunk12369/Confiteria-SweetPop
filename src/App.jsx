@@ -5,14 +5,15 @@ import Header from './components/Header'
 import Information from './components/Information'
 import NetworkButtons from './components/NetworkButtons'
 import Login from './components/Login'
-import CrearCuenta from './components/CrearCuenta'
+import Cuenta from './components/Cuenta'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Login/>
+      <Cuenta/>
     </>
   )
 }

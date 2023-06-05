@@ -21,20 +21,6 @@ background: #D90452;
     top: 7.9%;
     bottom: 86.17%;
 }
-
-.Redes{
-display: flex;
-justify-content: space-between;
-    position: absolute;
-    
-width: 232px;
-height: 45px;
-left: 108px;
-top: 830px;
-
-}
-
-
 .container .forms {
     position: absolute;
     width: 430px;
