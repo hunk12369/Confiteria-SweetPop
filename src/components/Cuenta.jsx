@@ -158,11 +158,13 @@ const Cuenta = () => {
           </div>
 
           <div className="login-signup">
-            <span className="text3">
+            <span className="text003">
             ¿Ya tienes una cuenta?
+            
               <a href="#" className="signup-link" onClick={handleToggleForm}>
                 ¡Inicia Sesión!
               </a>
+            
             </span>
           </div>
           <div className="clear"></div>
