@@ -46,13 +46,13 @@ const Login = () => {
         <img src="./src/assets/images/logo.jpg" alt="" />
         </div>
         
-          <span className="title">Iniciar Sesión</span>
+          <span className="title01">Iniciar Sesión</span>
           <div className="clear"></div>
-          <div className="text1">Por favor inicia sesión para continuar</div>
+          <div className="text01">Por favor inicia sesión para continuar</div>
 
           <form onSubmit={handleSubmit}>
 
-          <div className="input-field1">
+          <div className="input-field01">
               <input
                 type="email"
                 className="gmail"
@@ -68,7 +68,7 @@ const Login = () => {
 
 
 
-            <div className="input-field">
+            <div className="input-field02">
               <input
                 type={showPassword ? 'text' : 'password'}
                 className="password"
@@ -96,12 +96,12 @@ const Login = () => {
             </a>
           </div>
 
-          <div className="input-field button">
+          <div className="input-field button01">
             <input type="submit" value="Login" />
           </div>
 
           <div className="login-signup">
-            <span className="text3">
+            <span className="text03">
               ¿No tienes una cuenta?
               <a href="#" className="signup-link" onClick={handleToggleForm}>
                 ¡Regístrate!

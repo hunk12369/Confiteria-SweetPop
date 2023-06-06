@@ -34,11 +34,11 @@ background: #D90452;
 
 
 
-.title {
+.title01 {
 position: absolute;
-left: 18.86%;
+left: 21%;
 right: 8.9%;
-top: 17.35%;
+top: 20%;
 bottom: 73.93%;
 font-family: 'Yusei Magic';
 font-style: normal;
@@ -48,7 +48,7 @@ line-height: 42px;
 color: #D90452;
 }
 
-.text1{
+.text01{
     position: absolute;
 left: 20.57%;
 right: 8.6%;
@@ -80,7 +80,7 @@ line-height: 18px;
 color: #D90452;
 }
 
-.input-field.button {
+.input-field.button01 {
 position:absolute;   
 width: 200.33px;
 height: 15px;
@@ -88,7 +88,7 @@ left: 110px;
 top: 578px;
   }
   
-  .input-field.button input {
+  .input-field.button01 input {
     font-family: 'Yusei Magic';
     font-style: normal;
     font-weight: 600;
@@ -107,12 +107,12 @@ top: 578px;
     transition: background-color 0.3s ease;
   }
   
-  .input-field.button input:hover {
+  .input-field.button01 input:hover {
     background-color: #D90452;
     color: #F19D9D;
   }
 
-  .login-signup .text3 {
+  .login-signup .text03 {
     position: absolute;
 left: 22.66%;
 right: 25.83%;
@@ -128,21 +128,21 @@ line-height: 19px;
 color: #D90452;
   }
 
-  .login-signup .text3 a {
+  .login-signup .text03 a {
 position: absolute;
 left: 75.91%;
 right: 18.22%;
 top: 73.37%;
 bottom: 21.36%;
 
-font-family: 'Yusei Magic';
+font-family:Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-style: normal;
 font-weight: 800;
 font-size: 14px;
 line-height: 19px;
 
-color: #5e0964;
+color: #D90452;
   }
 
 .text2{
@@ -159,7 +159,7 @@ line-height: 19px;
 
 color: #D90452;
 }
-.input-field {
+.input-field02 {
     position: absolute;
   top: 427px; 
   left: 50px; 
@@ -167,7 +167,7 @@ color: #D90452;
 
   }
   
-  .input-field input {
+  .input-field02 input {
     font-family: 'Yusei Magic';
     font-style: normal;
     font-weight: 500;
@@ -186,19 +186,19 @@ color: #D90452;
     transition: background-color 0.3s ease;
   }
   
-  .input-field input::placeholder {
+  .input-field02 input::placeholder {
     color: white; 
     font-size: 17px; 
     text-indent: 9px;
   }
 
-  .input-field1 {
+  .input-field01 {
     position: absolute;
   top: 300px; 
   left: 50px; 
   margin-bottom: 40px;
   }
-  .input-field1 img{
+  .input-field01 img{
     position: absolute;
 left: 3%;
 right: 83.68%;
@@ -207,7 +207,7 @@ bottom: 62.66%;
 
   }
 
-  .input-field1 input {
+  .input-field01 input {
     font-family: 'Yusei Magic';
     font-style: normal;
     font-weight: 500;
@@ -242,7 +242,7 @@ top: 35%;
 bottom: 46.9%;
   }
 
-  .input-field1 input::placeholder {
+  .input-field01 input::placeholder {
     color: white; 
     font-size: 17px; 
     text-indent: 9px;
