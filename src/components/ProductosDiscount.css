@@ -1,0 +1,105 @@
+.de1 {
+    position: absolute;   
+    left: 0.0%;
+    right: 0.93%;
+    top: 26.56%;
+    bottom: 52.9%;
+    border-radius: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #974886;
+    border-radius: 50px
+  }
+  .descuento p {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000; 
+  }
+  .tez {
+    background: #FFBBE0;
+    border-radius: 20px;
+  }
+  .descuento button {
+    background: #985FA6;
+    border-radius: 8px;
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: white;
+    width: 70%;
+  }
+  .p1 {
+    background: #FFBBE0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p1 img {
+    width: 80%;
+  }
+  .de2 {
+    position: absolute;
+    left: 1.4%;
+    right: 2.57%;
+    top: 51.13%;
+    bottom: 29.0%;
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #974886;
+    border-radius: 50px
+  }
+  .p2 {
+    background: #FFBBE0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p2 img {
+    width: 70%;
+  }
+  .de3 {
+    position: absolute;
+    left: 1.4%;
+    right: 2.57%;
+    top: 74.8%;
+    bottom: 8.5%;
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #974886;
+    border-radius: 50px
+  }
+  .p3 {
+    background: #FFBBE0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p3 img {
+    width: 70%;
+  }
+  .etiqueta{
+    position: absolute;
+    left: 67.29%;
+    right: -0.93%;
+    top: 33.64%;
+    bottom: 63.2%;
+    
+  }
+  
