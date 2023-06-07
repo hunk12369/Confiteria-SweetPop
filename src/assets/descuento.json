@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "src/assets/images/chocolates.jpg",
+        "imgsrc2":"src/assets/images/10porciento.png",
+        "name": "Chocolates",
+        "text":"CELEBRA SAN VALENTIN CON LAS MEJORES OFERTAS QUE LE OFRECEMOS "
+    },
+
+    {
+        "id": 2,
+        "imgsrc": "src/assets/images/torta.jpg",
+        "imgsrc2":"src/assets/images/30porciento.png",
+        "name": "Tortas",
+        "text":"POR EL DIA DE LA MADRE VEN A CELEBRAR CON NOSOTROS CON ESTOS SUPER DESCUENTOS"
+    },
+
+    {
+        "id": 3,
+        "imgsrc": "src/assets/images/cakepops.png",
+        "imgsrc2":"src/assets/images/30porciento1.png",
+        "name": "CakePops",
+        "text":"CELEBRA TU ANIVERSARIO CON NOSTROS"
+    }
+
+
+]
