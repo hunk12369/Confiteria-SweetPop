@@ -1,5 +1,8 @@
-.ct1{
-    position: absolute;
+.CatalogoOfertas {
+    margin: 20px 0;
+}
+
+.ct1 {
     left: 0.0%;
     right: 0.93%;
     top: 26.56%;
@@ -10,29 +13,33 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    }
-    .CatalogoOfertas p{
-        font-family: 'Yusei Magic';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 36px;
-        text-align: center;
-        color: #000000; 
-    }
-    .p1{
-        background-color: white;
-        border-radius: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .p1 img{
-        width: 70%;
-    }
-    .ct2{
-    position: absolute;
+    margin: 40px 0;
+}
+
+.CatalogoOfertas p {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000; 
+}
+
+.p1 {
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.p1 img {
+    width: 70%;
+}
+
+.ct2 {
     left: 1.4%;
     right: 2.57%;
     top: 50.13%;
@@ -43,37 +50,45 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    }
-    .p2{
-        background-color: white;
-        border-radius: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .p2 img{
-        width: 70%;
-    }
-    .ct3 {
-    position: absolute;
+    margin: 40px 0;
+}
+
+.p2 {
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.p2 img {
+    width: 70%;
+}
+
+.ct3 {
     left: 1.4%;
     right: 2.57%;
     top: 73.8%;
     bottom: 5.66%;
     border-radius: 50px;
-        background: #FFBBE0;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        }
-        .p3{
-            background-color: white;
-            border-radius: 50px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        } 
-        .p3 img{
-            width: 70%;
-        }           
+    background: #FFBBE0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.p3 {
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.p3 img {
+    width: 70%;
+}
