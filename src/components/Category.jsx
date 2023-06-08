@@ -9,23 +9,23 @@ const Category = () => {
   return (
     <div className='paginaCategorias'>
         <div className='pantalla'>
-        <div className='tituloCate'><h1>Categorias</h1></div>
-        <div className='subtituloCate'><h2>SweetPop</h2></div>
+          <Header/>
+        <div className='categorias'>
+        <div><span>Categorias</span></div>
+        <div><h9>SweetPop</h9></div>
         <div className='linea'></div>
+        </div>
         <div className='foto1Categorias'>
         <img src="src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt=''/>
         </div>
         </div>
-        <div className='olasCategorias'>
+        <OlasAdorno/>
+        <Catalogue/>
+        <FotterLogo/>
+        <div className='olasCategorias2'>
         <OlasAdorno/>
         </div>
         
-    <Header/>
-    <FotterLogo/>
-    <Catalogue/>
-    <div className='olasCategorias2'>
-    <OlasAdorno/>
-    </div>
     </div>
     
 

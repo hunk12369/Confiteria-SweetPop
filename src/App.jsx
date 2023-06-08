@@ -1,25 +1,11 @@
 import { useState } from 'react'
 import Category from './components/Category'
-import Contact from './components/Contact'
-import Contactos from './pages/Contactos'
-
-
-
-
-
-
+import Categorias from './pages/Categorias'
 function App() {
-  const [count, setCount] = useState(0)
-
+const [count, setCount] = useState(0)
   return (
     <>
-    <div></div>
-    <Category/>
-    
-    
-     
-     
-     
+    <Categorias/>
     </>
   )
 }
