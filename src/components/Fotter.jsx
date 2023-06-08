@@ -16,7 +16,9 @@ const Fotter = () => {
             <p>instagran</p>
         </div>
         <div className='linea7'></div>
-        <p className=' derechos'>© 2022 SweetPop todos los derechos reservados</p>
+        <div className='derechos'>
+        <p >© 2022 SweetPop todos los derechos reservados</p>
+        </div>
     </div>
 
   )

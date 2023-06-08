@@ -1,18 +1,16 @@
 .informacion{
-    position: absolute;
+    
     width: 100%;
-    height: 368px;
-    left: 0px;
-    top: 951px;
+    
     }
     .texto{
-    position: absolute;
+    
     right: 0.76%;
     top: 20.65%;
     bottom: 19.57%;
     width: 100%;
     
-    position: absolute;
+    
     left: 10.64%;
     right: 0.76%;
     top: 20.65%;
@@ -40,7 +38,7 @@
         border: 3px solid #BE91CA;
         }
         .ubit{
-        position: absolute;
+        
         left: 13.06%;
         right: 5.37%;
         top: 29.8%;
@@ -53,7 +51,7 @@
         color: #191919;
         }
         .cellt{
-        position: absolute;
+        
         left: 13.06%;
         right: 10.55%;
         top: 32.5%;
@@ -66,7 +64,7 @@
         color: #191919;
         }
         .emailt{
-        position: absolute;
+       
         left: 13.06%;
         right: 10.73%;
         top: 34.1%;
@@ -85,26 +83,16 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 10px 35px;
-            gap: 10px;
-            
-            position: absolute;
-            left: 1.78%;
-            right: 0%;
-            top: 82.88%;
-            bottom: 0%;
-            
+            width: 100%;
+            height: 100%;
+        
             background: #985FA6;
             border-radius: 8px;
         }
         .botonInf p{
-        width: 226px;
-        height: 36px;
         font-family: 'Yusei Magic';
         font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 20px;
         color: #FFFBF5;
         flex: none;
         order: 0;

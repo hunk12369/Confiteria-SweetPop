@@ -9,28 +9,30 @@ const Contact = () => {
   return (
     <div className='pagina'>
           <div className='pantalla'>
-        <h1>Contactanos</h1>
-        <h2>SweetPop</h2>
+            <Header/>
+            <div className='contanctanos'>
+              <div><span>Contactanos</span></div>
+              <div><h10>SweetPop</h10></div>
         <div className='linea'></div>
-        <div className='header'>
-        <Header/>
-        </div>
-    </div>    
+            </div>
+        <div className='fotoPortada'>
+    <img src="src/assets/images/2.jpg" alt=''/>
+    </div> 
+    </div>
+    <OlasAdorno/>
+    <div className='fotitos'>
+     <Information/>
     <div className='relleno1'>
         <img src="src/assets/images/1.jpg" alt="" />
     </div>
-    <div className='olasContactanos'>
-    <OlasAdorno/>
-    </div>
+    <NetworkButtons/>
     <div className='relleno2'>
         <img src="src/assets/images/masas1.jpg" alt="" />
     </div>
-    <div className='fotoPortada'>
-    <img src="src/assets/images/2.jpg" alt=''/>
-    </div>
     <Fotter/>
-    <Information/>
-    <NetworkButtons/>
+    </div>
+  
+    
       </div>
       
 

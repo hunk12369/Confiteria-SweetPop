@@ -1,8 +1,5 @@
 .botones{
-    position: absolute;
     width: 100%;
-    height: 393px;
-    top: 1708px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,8 +20,6 @@
     .facebook{
     Width:100%;
     Height:56px;
-    Top:1823px;
-    Left:23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,8 +45,6 @@
     .ticktock{
         Width:100%;
     Height:56px;
-    Top:1823px;
-    Left:23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
