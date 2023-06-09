@@ -8,8 +8,9 @@ import Contactos from './pages/Contactos.jsx'
 import Descuento from './pages/Descuento.jsx'
 import Ofertas from './pages/Ofertas.jsx'
 import Resenas from './pages/Resenas.jsx'
-import Login from './components/Login.jsx'
-
+import LoginPage from './pages/LoginPage.jsx'
+import Register from './pages/Register.jsx'
+import Categorias from './pages/Categorias.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -20,8 +21,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/descuentos' element={<Descuento/>}/>
         <Route path='/ofertas' element={<Ofertas/>}/>
         <Route path='/reseñas' element={<Resenas/>}/>
-        <Route path='/login' element={<Login/>}/>
-
+        <Route path='/login' element={<LoginPage/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/categorias' element={<Categorias/>}/>
         <Route path='*' element={<p>Page Not found</p>}/>
       </Routes>
     </BrowserRouter>
