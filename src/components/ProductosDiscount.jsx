@@ -12,14 +12,13 @@ const ProductosDiscount = () => {
             <img src={item.imgsrc} alt="" />
             <br></br>
           </div>
+          
           <br></br>
+          <img className='xd' src={item.imgsrc2} alt="" />
           <button>{item.name}</button>
           <br></br>
           <div className='tez'>
           <p>{item.text}</p>
-          </div>
-          <div className='etiqueta'>
-          <img src={item.imgsrc2} alt="" />
           </div>
         </div>
       ))}
