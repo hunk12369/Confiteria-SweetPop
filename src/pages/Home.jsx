@@ -2,10 +2,13 @@ import React from 'react'
 import "./Home.css"
 import Servicios from '../components/Servicios'
 import OlasAdorno from '../components/OlasAdorno'
+import Fotter from '../components/Fotter'
+import Header from '../components/Header'
 const Home = () => {
+  
   return (
     <div>
-      
+      <Header/>
       <div className='home-encabezado'>
         <h1>
           INICIO
@@ -15,12 +18,15 @@ const Home = () => {
         </h2>
         <img src="/src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt="imagne del home"></img>
       </div>
-      <OlasAdorno/>
+      <div>
+        <OlasAdorno />
+      </div>
 
       <div className='servicios'>
-        <p>hola</p>
         <Servicios/>
       </div>
+      
+      <Fotter/>
       
     </div>
   )
