@@ -1,0 +1,118 @@
+.botones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56%;
+    letter-spacing: 1px;
+    color: #BE91CA;
+    }
+    .linea5{
+    border: 3px solid #BE91CA;
+    }
+    .facebook{
+    Width:100%;
+    Height:56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    Padding:20px, 35px;
+    gap: 10px;
+    background: #985FA6;
+    border-radius: 8px;
+    }
+    .facebook p{
+    width: 125px;
+    height: 36px;
+    font-family: 'Newake';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFBF5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .ticktock{
+        Width:100%;
+    Height:56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    gap: 10px;
+    background: #985FA6;
+    border-radius: 8px;
+    }
+    .ticktock p{
+    height: 36px;
+    font-family: 'Newake';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFBF5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .instagram{
+        Width:100%;
+    Height:56px;
+    Top:1823px;
+    Left:23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    gap: 10px;
+    background: #985FA6;
+    border-radius: 8px;}
+    .instagram p{
+    width: 129px;
+    height: 36px;
+    font-family: 'Newake';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFBF5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    .twitter{
+        Width:100%;
+    Height:56px;
+    Top:1823px;
+    Left:23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    gap: 10px;
+    background: #985FA6;
+    border-radius: 8px;}
+    .twitter p{
+    width: 87px;
+    height: 36px;
+    font-family: 'Newake';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFBF5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
