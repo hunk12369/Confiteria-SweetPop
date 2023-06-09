@@ -10,8 +10,24 @@ const SliderGeneral = (props) => {
   const {categorias}= props;
   const puntos=props.puntos;
   const flechas=props.flechas;
-  //console.log(categorias);
-  //console.log(puntos);
+  //
+  // Componente de flecha personalizado para la flecha "Anterior"
+  const PrevArrow = (props) => (
+    <div
+      className="custom-prev-arrow"
+      onClick={props.onClick}
+    >
+    </div>
+  );
+
+  // Componente de flecha personalizado para la flecha "Siguiente"
+  const NextArrow = (props) => (
+    <div
+      className="custom-next-arrow"
+      onClick={props.onClick}
+    >
+    </div>
+  );
   //configuración para que el slider sea responsive
   const configuracion = {
     dots: puntos,
@@ -21,6 +37,8 @@ const SliderGeneral = (props) => {
     slidesToScroll: 3,
     initialSlide: 0,
     arrows:flechas,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -53,12 +71,11 @@ const SliderGeneral = (props) => {
   
   return (
     <div className='tarjeta'>
-        <Slider {...configuracion}>
-        {categorias.map(item => (
-            <img src={item.linkImg} alt={item.descripcion} />
-        ))}
-          
-        </Slider>
+          <Slider {...configuracion}>
+          {categorias.map(item => (
+              <img key={item.id} src={item.linkImg} alt={item.descripcion} />
+          ))}
+          </Slider>
     </div>
   )
 }

@@ -5,3 +5,44 @@
     width: 400px;
     height: 400px;
 }
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.custom-prev-arrow {
+    z-index: 1;
+    top: 50%;
+    left: 10px;
+    background-image: url("/src/assets/images/Group\ 129.png");
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.custom-next-arrow {
+    z-index: 2;
+    top: 50%;
+    right: 10px;
+    background-image: url("/src/assets/images/Group\ 129.png");
+    background-size: cover;
+}
+
+
+.slick-dots li {
+    width: 66px;
+}
+.slick-dots li.slick-active button:before {
+    color: #D90452;
+    background-color: #D90452;
+    width: 66px;
+    height: 20px;
+}
+.slick-dots li button:before {
+    color: #D90452;
+    background-color: #D90452;
+    width: 66px;
+    height: 20px;
+}

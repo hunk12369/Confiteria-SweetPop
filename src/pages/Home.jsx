@@ -18,9 +18,7 @@ const Home = () => {
         </h2>
         <img src="/src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt="imagne del home"></img>
       </div>
-      <div>
-        <OlasAdorno />
-      </div>
+      <OlasAdorno/>
 
       <div className='servicios'>
         <Servicios/>
