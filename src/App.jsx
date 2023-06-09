@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ProductosOfertas from './components/ProductosOfertas'
 import Ofertas from './pages/Ofertas'
+import Resenas from './pages/Resenas'
 
 
 
