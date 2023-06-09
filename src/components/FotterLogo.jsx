@@ -13,5 +13,3 @@ const FotterLogo = () => {
     </div>
   )
 }
-
-export default FotterLogo

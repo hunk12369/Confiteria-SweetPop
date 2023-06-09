@@ -10,5 +10,3 @@ const Contactos = () => {
     </div>
   )
 }
-
-export default Contactos
