@@ -1,0 +1,36 @@
+.menuContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+  }
+  .boneto p{
+    font-size: 25px;
+  }
+ .boneto{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .menuContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FF91A4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
