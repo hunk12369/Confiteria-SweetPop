@@ -10,7 +10,8 @@ const Menu = ({ onClose }) => {
 
   return (
     <div className={`menuContainer ${isOpen ? 'open' : ''}`}>
-      <div className='overlay' onClick={onClose} />
+      <div className='equis' onClick={onClose}/>
+      
       <div className='menuContent'>
           <div className='nav'>
             {menu.map((item) => (
