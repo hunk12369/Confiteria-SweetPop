@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "src/assets/images/ramoCake.png",
+        "imgsrc2":"src/assets/images/calendario.png",
+        "name": "Ramo de Cakepop",
+        "text":"Celebra este 14 de febrero con nosotros y las increibles ofertas"
+    },
+
+    {
+        "id": 2,
+        "imgsrc": "src/assets/images/ramoCake2.png",
+        "imgsrc2":"src/assets/images/vaca.png",
+        "name": "Ramo de Fresas",
+        "text":"Disfruta en pareja con un increible ramo de fresas"
+    },
+
+    {
+        "id": 3,
+        "imgsrc": "src/assets/images/torta.jpg",
+        "imgsrc2":"src/assets/images/cupon.png",
+        "name": "Tortas Tematicas",
+        "text":"Ven a celebrar ese dia tan especial para ti como pidiendo tortas tematicas"
+    }
+
+
+
+]
