@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Category from '../components/Category'
+import { getProductos } from '../services/Productos';
 
 const Categorias = () => {
-  return (
+    
+    return (
     <div><Category/></div>
   )
 }

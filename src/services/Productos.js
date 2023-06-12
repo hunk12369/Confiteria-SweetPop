@@ -1,4 +1,4 @@
-export const getMoviesTrending = async () => {
+export const getProductos = async () => {
     const apiUrl = "http://localhost/restphp/usuario.php";
     const apiTitle = `${apiUrl}`;
     

@@ -61,11 +61,6 @@ const Cuenta = () => {
 
   return (
     <div className="container">
-      <div className="logo">
-        <img src="./src/assets/images/logo.jpg" alt="" />
-      </div>
-
-     
       <Fotter1/>
       
       <div className={`forms ${isSignUp ? 'signup-active' : ''}`}>
