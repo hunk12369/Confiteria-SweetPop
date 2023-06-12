@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Menu.css';
 import menu from "../assets/menu.json"
+import { NavLink } from 'react-router-dom';
 const Menu = ({ onClose }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,10 +17,12 @@ const Menu = ({ onClose }) => {
           <div className='nav'>
             {menu.map((item) => (
               <div className={`var${item.id}`} key={item.id}>
-                <div className='boneto'>
-                  <img src={item.imgsrc} alt='' />
-                  <p>{item.text}</p>
-                </div>
+                <NavLink to={item.pagina}>
+                  <div className='boneto'>
+                    <img src={item.imgsrc} alt='' />
+                    <p>{item.text}</p>
+                  </div>
+                </NavLink>
               </div>
             ))}
           </div>

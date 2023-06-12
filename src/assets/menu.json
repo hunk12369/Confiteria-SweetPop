@@ -2,48 +2,49 @@
     {
         "id": 1,
         "imgsrc": "src/assets/images/inicio.png",
-        
+        "pagina":"/",
         "text":"Inicio     "
     },
 
     {
         "id": 2,
         "imgsrc": "src/assets/images/informacion.png",
-       
+        "pagina":"/informacion",
         "text":"Informacion"
     },
 
     {
         "id": 3,
         "imgsrc": "src/assets/images/contactos.png",
-      
+        "pagina":"/contactos",
         "text":"Contactanos"
     },
 
     {
         "id": 4,
         "imgsrc": "src/assets/images/categorias.png",
-        
+        "pagina":"/categorias",
         "text":"Categorias"
     },
 
     {
         "id": 5,
         "imgsrc": "src/assets/images/descuento.png",
-        
+        "pagina":"/descuentos",
         "text":"Descuentos"
     },
 
     {
         "id": 6,
         "imgsrc": "src/assets/images/ofertas.png",
-        
+        "pagina":"/ofertas",
         "text":"Ofertas"
     },
 
     {
         "id": 7,
         "imgsrc": "src/assets/images/reseñas.png",
+        "pagina":"/reseñas",
         "text":"Reseñas"
     }
 

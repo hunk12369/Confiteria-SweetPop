@@ -9,10 +9,9 @@ const Category = () => {
   return (
     <div className='paginaCategorias'>
         <div className='pantalla'>
-          <Header/>
         <div className='categorias'>
         <div><span>Categorias</span></div>
-        <div><h9>SweetPop</h9></div>
+        <div><h6>SweetPop</h6></div>
         <div className='linea'></div>
         </div>
         <div className='foto1Categorias'>

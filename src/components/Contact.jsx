@@ -9,10 +9,9 @@ const Contact = () => {
   return (
     <div className='pagina'>
           <div className='pantalla'>
-            <Header/>
             <div className='contanctanos'>
               <div><span>Contactanos</span></div>
-              <div><h10>SweetPop</h10></div>
+              <div><h6>SweetPop</h6></div>
         <div className='linea'></div>
             </div>
         <div className='fotoPortada'>
@@ -20,7 +19,7 @@ const Contact = () => {
     </div> 
     </div>
     <OlasAdorno/>
-    <div className='fotitos'>
+    <div className='fotitos-contact'>
      <Information/>
     <div className='relleno1'>
         <img src="src/assets/images/1.jpg" alt="" />

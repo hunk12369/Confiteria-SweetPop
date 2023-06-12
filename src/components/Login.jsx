@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import Fotter1 from './Fotter1';
+import { NavLink } from 'react-router-dom';
 
 
 const Login = () => {
@@ -99,9 +100,9 @@ const Login = () => {
           <div className="login-signup">
             <span className="text03">
               ¿No tienes una cuenta?
-              <a href="#" className="signup-link" onClick={handleToggleForm}>
+              <NavLink to="/register">
                 ¡Regístrate!
-              </a>
+              </NavLink>
             </span>
           </div>
           <div className="clear"></div>

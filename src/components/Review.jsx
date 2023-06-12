@@ -7,7 +7,6 @@ const Review = () => {
   return (
 <div className='paginaReseñas'>
   <div className='pantallaReseñas'>
-    <Header/>
     <div className='reseñas'>
     <div className='bonito2'>
     <div><span>Reseñas</span></div>
@@ -15,7 +14,7 @@ const Review = () => {
       <img src="src/assets/images/resenas.png" alt="" />
     </div>
     </div>
-    <div><h7>SweetPop</h7></div>
+    <div><h6>SweetPop</h6></div>
     <div className='linea'></div>
     </div>
     <div className='foto2Reseñas'>

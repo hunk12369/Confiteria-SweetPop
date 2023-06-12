@@ -8,10 +8,9 @@ const Discount = () => {
   return (
     <div className='paginaDescuento'>
   <div className='pantallaDescuento'>
-    <Header/>
       <div className='descuentos'>
       <div><span>Descuentos</span></div>
-      <div><h15>SweetPop</h15></div>
+      <div><h6>SweetPop</h6></div>
       <div className='linea'></div>
       </div>
     <div className='foto2Descuento'>

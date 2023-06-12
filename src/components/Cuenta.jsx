@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Cuenta.css';
 import Fotter1 from './Fotter1';
+import { NavLink } from 'react-router-dom';
 
 
 const Cuenta = () => {
@@ -155,11 +156,9 @@ const Cuenta = () => {
           <div className="login-signup">
             <span className="text003">
             ¿Ya tienes una cuenta?
-            
-              <a href="#" className="signup-link" onClick={handleToggleForm}>
+              <NavLink to="/login">
                 ¡Inicia Sesión!
-              </a>
-            
+              </NavLink>
             </span>
           </div>
           <div className="clear"></div>

@@ -7,7 +7,6 @@ const Offer = () => {
   return (
     <div className='paginaOfertas'>
          <div className='pantallaOfertas'>
-           <Header/>
         <div className='ofertas'>
           <div className='bonito'>
           <div><span>Ofertas</span></div>
@@ -15,7 +14,7 @@ const Offer = () => {
         <img src="src/assets/images/Descuento.png" alt="" />
           </div>
         </div> 
-        <div><h8>SweetPop</h8></div>
+        <div><h6>SweetPop</h6></div>
         <div className='linea'></div>
         </div> 
         <div className='foto1Categorias'>
