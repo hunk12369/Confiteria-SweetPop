@@ -8,25 +8,25 @@ const Discount = () => {
   return (
     <div className='paginaDescuento'>
   <div className='pantallaDescuento'>
-    <div className='tituloDescuento'>
-      <span>Descuentos</span>
-    </div>
-    <div className='subtituloDescuento'>
-      <p>SweetPop</p>
-    </div>
-    <div className='linea'></div>
+    <Header/>
+      <div className='descuentos'>
+      <div><span>Descuentos</span></div>
+      <div><h15>SweetPop</h15></div>
+      <div className='linea'></div>
+      </div>
     <div className='foto2Descuento'>
       <img src="src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt=''/>
     </div>
-  </div>
-  <Header/>
-  <div className='olasDescuento'>
+    </div>
     <OlasAdorno/>
-  </div>
-  <div className='olasCategorias2'>
+    <ProductosDiscount/>
+    <div className='olasDes'>
     <OlasAdorno/>
-  </div>
-  <ProductosDiscount/>
+    </div>
+    
+    
+    
+  
 </div>
 
   )

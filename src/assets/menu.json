@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "src/assets/images/inicio.png",
+        
+        "text":"Inicio     "
+    },
+
+    {
+        "id": 2,
+        "imgsrc": "src/assets/images/informacion.png",
+       
+        "text":"Informacion"
+    },
+
+    {
+        "id": 3,
+        "imgsrc": "src/assets/images/contactos.png",
+      
+        "text":"Contactanos"
+    },
+
+    {
+        "id": 4,
+        "imgsrc": "src/assets/images/categorias.png",
+        
+        "text":"Categorias"
+    },
+
+    {
+        "id": 5,
+        "imgsrc": "src/assets/images/descuento.png",
+        
+        "text":"Descuentos"
+    },
+
+    {
+        "id": 6,
+        "imgsrc": "src/assets/images/ofertas.png",
+        
+        "text":"Ofertas"
+    },
+
+    {
+        "id": 7,
+        "imgsrc": "src/assets/images/reseñas.png",
+        "text":"Reseñas"
+    }
+
+
+]
