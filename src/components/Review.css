@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+}
+.paginaReseñas{
+position: relative;
+}
+.pantallaReseñas{
+    width:100%;
+    height: 788px;
+    background: #FFBBE0;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+       
+}
+.reseñas{
+    display: flex;
+flex-direction: column;
+margin: 20px 0 20px 0;
+margin-bottom: 20px;    
+}
+.pantallaReseñas span{
+    width: 100%;
+    height: 35px;
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56%;
+    letter-spacing: 1px;
+    color: #FFFBF5;
+    }
+    .pantallaReseñas h7{  
+        width: 100%;
+        height: 112px;
+        font-family: 'Yusei Magic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 160%;
+        letter-spacing: 1px;
+        color: #D90452;
+        }
+        .bonito2{
+            display: flex;
+            align-items: center;
+        }
+        
+
+.Foto1Reseñas img{
+width: 100%;
+height: 100%;
+}
+.foto2Reseñas img{
+    width: 100%;
+height: 100%;
+}
+
+.linea{
+
+width: 184px;
+height: 0px;
+
+border: 4px solid #D90452;
+}
+.olasReseñas{
+    transform:rotate(180deg); 
+}
+
+
+    
