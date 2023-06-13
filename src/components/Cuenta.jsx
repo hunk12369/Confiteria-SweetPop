@@ -61,109 +61,91 @@ const Cuenta = () => {
   };
 
   return (
-    <div className="container">
-      <Fotter1/>
-      
-      <div className={`forms ${isSignUp ? 'signup-active' : ''}`}>
-        <div className="form login">
-        <div className='Logito'>
-        <img src="./src/assets/images/logo.jpg" alt="" />
-        </div>
-        
-          <span className="title">Crear Cuenta</span>
-          <div className="clear"></div>
-          <div className="text1">Por favor rellenar todos los campos de abajo</div>
+    <div className={`forms ${isSignUp ? 'signup-active' : ''}`}>
+      <div className="form-cuenta">
+        <span className="title">Crear Cuenta</span>
+        <div className="text1">Por favor rellenar todos los campos de abajo</div>
 
-          <form onSubmit={handleSubmit}>
-          <div className="input-field1">
-              <input
-                type="nombre"
-                className="nombre"
-                placeholder="Nombre Completo"
-                value={nombre}
-                onChange={handlenombreChange}
-                required  
-            />
+        <form onSubmit={handleSubmit}>
+          <div className="input-nombre">
             <img src="./src/assets/images/Human.jpg" alt='' />
-            </div>
-
-
-            <div className="input-field2">
-              <input
-                type="phone"
-                className="phone"
-                placeholder="Telefono"
-                value={phone}
-                onChange={handlephoneChange}
-                required  
+            <input
+              type="nombre"
+              className="nombre"
+              placeholder="Nombre Completo"
+              value={nombre}
+              onChange={handlenombreChange}
+              required  
             />
+          </div>
+
+
+          <div className="input-phone">
             <img src="./src/assets/images/smartphone.jpg" alt='' />
-            </div>
-
-            <div className="input-field3">
-              <input
-                type="email"
-                className="gmail"
-                placeholder="Correo electrónico"
-                value={email}
-                onChange={handleEmailChange}
-                required  
+            <input
+              type="phone"
+              className="phone"
+              placeholder="Telefono"
+              value={phone}
+              onChange={handlephoneChange}
+              required  
             />
+          </div>
+
+          <div className="input-email">
             <img src="./src/assets/images/email.jpg" alt='' />
-            </div>
-
-
-            <div className="input-field4">
-              <input
-                type={showPassword ? 'text' : 'password'}
-                className="password"
-                placeholder="Contraseña"
-                value={password}
-                onChange={handlePasswordChange}
-                required
-              />
-              <div className='lock'>
-              <img src="./src/assets/images/lock.jpg" alt='' />
-              </div>
-              <div className='eye'>
-              <img src="./src/assets/images/eye.jpg" alt='' />
-              </div>
-            </div>
-
-            <div className="input-field5">
-              <input
-                type="contraseña"
-                className="contraseña"
-                placeholder="Confirmar Contraseña"
-                value={contraseña}
-                onChange={handlecontraseñaChange}
-                required  
+            <input
+              type="email"
+              className="gmail"
+              placeholder="Correo electrónico"
+              value={email}
+              onChange={handleEmailChange}
+              required  
             />
-              <div className='lock'>
-              <img src="./src/assets/images/lock.jpg" alt='' />
-              </div>
-              <div className='eye'>
-              <img src="./src/assets/images/eye.jpg" alt='' />
-              </div>
-            </div>
-        
-          </form>
-
-          <div className="input-field button">
-            <input type="submit" value="Registrarse" />
           </div>
 
-          <div className="login-signup">
-            <span className="text003">
-            ¿Ya tienes una cuenta?
-              <NavLink to="/login">
-                ¡Inicia Sesión!
-              </NavLink>
-            </span>
+
+          <div className="input-password">
+            <img src="./src/assets/images/lock.jpg" alt='' />
+            <input
+              type={showPassword ? 'text' : 'password'}
+              className="password"
+              placeholder="Contraseña"
+              value={password}
+              onChange={handlePasswordChange}
+              required
+            />
+            <img src="./src/assets/images/eye.jpg" alt='' />
           </div>
-          <div className="clear"></div>
-          <div className="text4">Conéctate a través de:</div>
+
+          <div className="input-passwordConfirm">
+            <img src="./src/assets/images/lock.jpg" alt='' />
+            <input
+              type="contraseña"
+              className="contraseña"
+              placeholder="Confirmar Contraseña"
+              value={contraseña}
+              onChange={handlecontraseñaChange}
+              required  
+            />
+            <img src="./src/assets/images/eye.jpg" alt='' />
+          </div>
+      
+        </form>
+
+        <div className="input-field button">
+          <input type="submit" value="Registrarse" />
         </div>
+
+        <div className="cuenta-login">
+          <span>
+          ¿Ya tienes una cuenta?
+            <NavLink to="/login">
+              ¡Inicia Sesión!
+            </NavLink>
+          </span>
+        </div>
+        <div className='fotter-adorno-cuenta'></div>
       </div>
     </div>
   );

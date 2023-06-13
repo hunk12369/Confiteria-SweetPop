@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Home.css"
 import Servicios from '../components/Servicios'
 import OlasAdorno from '../components/OlasAdorno'
 import Fotter from '../components/Fotter'
 import Header from '../components/Header'
+import { getProductos } from '../services/Productos'
 const Home = () => {
+  const [apiProductos, setProductos] = useState([]);
+  useEffect(() => {
+    getProductos().then((data) => {setProductos(data.results)})
+
+  }, []);
   
   return (
     <div>

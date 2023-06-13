@@ -1,298 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-
-.Logito{
-  position: absolute;
-left: 6.29%;
-right: 81%;
-top: 7.9%;
-bottom: 86.17%;
+.form-cuenta{
+  font-family: 'Yusei Magic';
+  font-style: normal;
+  background: #FFBBE0;
+  text-align: center;
+  position: static;
+  padding-top: 40px;
 }
-.Redes{
-display: flex;
-justify-content: space-between;
-    position: absolute;
-    
-width: 232px;
-height: 45px;
-left: 108px;
-top: 830px;
-
-}
-
-
-.container .forms {
-    background: #FFBBE0;
-}
-
-
 /*Titulo*/
 .title {
-position: absolute;
-left: 23%;
-right: 8.9%;
-top: 12%;
-bottom: 73.93%;
-font-family: 'Yusei Magic';
-font-style: normal;
-font-weight: 800;
-font-size: 36px;
-line-height: 42px;
-color: #D90452;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  color: #D90452;
 }
 
 /*Por favor rellenar los campos*/
 .text1{
-    position: absolute;
-left: 18%;
-right: 8.6%;
-top: 19%;
-bottom: 64.86%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #D90452;
+  padding: 30px;
 
-font-family: 'Yusei Magic';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 18px;
-
-color: #D90452;
-
-}
-
-/*Conectate a traves de*/
-.text4{
-    position: absolute;
-width: 150px;
-height: 18px;
-left: 144px;
-top: 744px;
-
-font-family: 'Yusei Magic';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 18px;
-color: grey;
 }
 
 /*Boton*/
-.input-field.button {
-position:absolute;   
-width: 200.33px;
-left: 79px;
-top: 578px;
-  }
+.input-field.button input {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 25px;
+  color: #D90452;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 20px 70px;
+  background-color: #F19D9D;
+  border: none;
+  border-radius: 25.5px;
+  cursor: pointer;
+}
   
-  .input-field.button input {
-    font-family: 'Yusei Magic';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 25px;
-    color: #D90452;
-  
-    padding: 20px 70px;
-    background-color: #F19D9D;
-    border: none;
-    border-radius: 25.5px;
-    cursor: pointer;
-  
-    
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-  
-  .input-field.button input:hover {
-    background-color: #D90452;
-    color: #F19D9D;
-  }
+.input-field.button input:hover {
+  background-color: #D90452;
+  color: #F19D9D;
+}
 
 /*ya tienes una cuenta*/
-  .login-signup .text003 {
-position: absolute;
-left: 15%;
-top: 85.37%;
-bottom: 23.99%;
-
-font-family: 'Yusei Magic';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #D90452;
-  }
+.cuenta-login {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #D90452;
+}
 
 /*inicia sesion*/
 
-  .login-signup .text003 a {
-position: relative;
-left: 9%;
-bottom: 21.36%;
-font-family:Arial, Helvetica, sans-serif;
-font-weight: bold;
-font-style: normal;
-font-weight: 800;
-font-size: 14px;
-color: #D90452;
-
-
-  }
-
-  /*Nombre completo*/
-.input-field1{
-  position: absolute;
-  top: 159px ;
-  left: 50px;
-  margin-top:30px ;
+.cuenta-login a {
+  position: relative;
+  left: 9%;
+  bottom: 21.36%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  color: #D90452;
 }
 
-.input-field1 input {
-  font-family: 'Yusei Magic';
-  font-style: normal;
+  /*Nombre completo*/
+.input-nombre{
+  background-color: #F19D9D;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.input-nombre input {
   font-weight: 500;
   font-size: 23px;
   line-height: 5px;
   color: #D90452;
 
+  width: 70%;
   padding: 15px 35px;
   background-color: #F19D9D;
   border:#FFBBE0;
   
   cursor: pointer;
-  
-  box-shadow: 0 2px 10px #D90452(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
 }
 
-.input-field1 input::placeholder {
+.input-nombre input::placeholder {
   color: white; 
   font-size: 17px; 
   text-indent: 9px;
-}
-
-.input-field1 img{
-  position: absolute;
-    left: 3%;
-    right: 83.68%;
-    top: 39%;
-    
 }
 
 /*Telefono*/
 
-.input-field2{
-  position: absolute;
-  top: 234px ;
-  left: 50px;
-  margin-top:30px ;
+.input-phone{
+  background-color: #F19D9D;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px
 }
 
-.input-field2 input {
-  font-family: 'Yusei Magic';
-  font-style: normal;
+.input-phone input {
   font-weight: 500;
   font-size: 23px;
   line-height: 5px;
   color: #D90452;
 
+  width: 70%;
   padding: 15px 35px;
   background-color: #F19D9D;
   border:#FFBBE0;
   
   cursor: pointer;
-
-  
-  box-shadow: 0 2px 10px #D90452(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
 }
 
-.input-field2 input::placeholder {
+.input-phone input::placeholder {
   color: white; 
   font-size: 17px; 
   text-indent: 9px;
-}
-
-.input-field2 img{
-  position: absolute;
-    left: 2%;
-    right: 83.68%;
-    top: 34%;
-    
 }
 
 /*Correo Electronico*/
 
-.input-field3{
-  position: absolute;
-  top: 308px ;
-  left: 50px;
-  margin-top:30px ;
+.input-email{
+  background-color: #F19D9D;
+  width: 75%;
+  margin-left: 10%;
+  margin-bottom: 20px
 }
 
-.input-field3 input {
-  font-family: 'Yusei Magic';
-  font-style: normal;
+.input-email input {
   font-weight: 500;
   font-size: 23px;
   line-height: 5px;
   color: #D90452;
 
+  width: 70%;
   padding: 15px 35px;
   background-color: #F19D9D;
   border:#FFBBE0;
   
   cursor: pointer;
-
-  
-  box-shadow: 0 2px 10px #D90452(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
 }
 
-.input-field3 input::placeholder {
+.input-email input::placeholder {
   color: white; 
   font-size: 17px; 
   text-indent: 9px;
 }
 
-.input-field3 img{
-  position: absolute;
-    left: 2.5%;
-    right: 83.68%;
-    top: 39%;
-    
-}
-
-
 /*Password*/
-.input-field4 {
-  position: absolute;
-top: 412px; 
-left: 50px; 
-margin-bottom: 40px;
+.input-password {
+  background-color: #F19D9D;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px
 }
 
 
-.input-field4 input {
-  font-family: 'Yusei Magic';
-  font-style: normal;
+.input-password input {
   font-weight: 500;
   font-size: 23px;
   line-height: 5px;
   color: #D90452;
 
-  padding: 15px 35px;
+  width: 65%;
+  padding: 15px 20px;
   background-color: #F19D9D;
   border:#FFBBE0;
   
   cursor: pointer;
-
-  
-  box-shadow: 0 3px 3px #D90452(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
 }
 
-.input-field4 input::placeholder {
+.input-password input::placeholder {
   color: white; 
   font-size: 17px; 
   text-indent: 9px;
@@ -300,53 +187,35 @@ margin-bottom: 40px;
 
 /*password2*/
 
-.input-field5 {
-  position: absolute;
-top: 487px; 
-left: 50px; 
-margin-bottom: 40px;
+.input-passwordConfirm {
+  background-color: #F19D9D;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px
 }
 
 
-.input-field5 input {
-  font-family: 'Yusei Magic';
-  font-style: normal;
+.input-passwordConfirm input {
   font-weight: 500;
   font-size: 23px;
   line-height: 5px;
   color: #D90452;
 
-  padding: 15px 35px;
+  width: 65%;
+  padding: 15px 20px;
   background-color: #F19D9D;
   border:#FFBBE0;
   
   cursor: pointer;
-
-  
-  box-shadow: 0 3px 3px #D90452(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
 }
 
-.input-field5 input::placeholder {
+.input-passwordConfirm input::placeholder {
   color: white; 
   font-size: 17px; 
   text-indent: 9px;
 }
-
-.lock img {
-  position: absolute;
-  left: 2.5%;
-  right: 83.71%;
-  top: 35%;
-  bottom: 47.02%;
+.fotter-adorno-cuenta{
+  height: 120px;
+  margin-top: 30px;
+  background-color: #D90452;
 }
-
-.eye img {
-  position: absolute;
-  left: 87.7%;
-  right: 50%;
-  top: 35%;
-  bottom: 46.9%;
-}
-
-
