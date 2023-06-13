@@ -10,6 +10,7 @@ import LoginPage from './pages/LoginPage.jsx'
 import Register from './pages/Register.jsx'
 import Categorias from './pages/Categorias.jsx'
 import Header from './components/Header.jsx'
+import NotFound from './pages/NotFound'
 function App() {
 const [count, setCount] = useState(0)
   return (
@@ -28,7 +29,7 @@ const [count, setCount] = useState(0)
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/categorias' element={<Categorias/>}/>
-        <Route path='*' element={<p>Page Not found</p>}/>
+        <Route path='*' element={<NotFound/>}/>
         
       </Routes>
     </BrowserRouter>

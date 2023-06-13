@@ -12,15 +12,15 @@ const Servicios = () => {
         <div className='titulos'>
             Categorias
         </div>
-        <SliderGeneral categorias={dataCategorias} puntos={true}/>
+        <SliderGeneral categorias={dataCategorias} puntos={true} pagina="/categorias"/>
         <div className='titulos'>
             Descuentos
         </div>
-        <SliderGeneral categorias={dataDescuentos} flechas={true}/>
+        <SliderGeneral categorias={dataDescuentos} flechas={true} pagina="/descuentos"/>
         <div className='titulos'>
             Ofertas
         </div>
-        <SliderGeneral categorias={dataOfertas} puntos={true} flechas={true}/>
+        <SliderGeneral categorias={dataOfertas} puntos={true} flechas={true} pagina="/ofertas"/>
     </div>
     
   )

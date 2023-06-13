@@ -5,11 +5,13 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import "./SliderGeneral.css"
+import { NavLink } from 'react-router-dom';
 
 const SliderGeneral = (props) => {
   const {categorias}= props;
   const puntos=props.puntos;
   const flechas=props.flechas;
+  const pagina=props.pagina;
   //
   // Componente de flecha personalizado para la flecha "Anterior"
   const PrevArrow = (props) => (
@@ -73,7 +75,9 @@ const SliderGeneral = (props) => {
     <div className='tarjeta'>
           <Slider {...configuracion}>
           {categorias.map(item => (
-              <img key={item.id} src={item.linkImg} alt={item.descripcion} />
+              <NavLink to={pagina} key={item.id}>
+                <img key={item.id} src={item.linkImg} alt={item.descripcion} />
+              </NavLink>
           ))}
           </Slider>
     </div>

@@ -34,80 +34,55 @@ const Login = () => {
   };
 
   return (
-    <div className="container">
-      <Fotter1/>
-      
-      <div className={`forms ${isSignUp ? 'signup-active' : ''}`}>
-        <div className="form login">
-        <div className='Logito'>
-        <img src="./src/assets/images/logo.jpg" alt="" />
-        </div>
-        
-          <span className="title01">Iniciar Sesión</span>
-          <div className="clear"></div>
-          <div className="text01">Por favor inicia sesión para continuar</div>
+    <div className={`forms ${isSignUp ? 'signup-active' : ''}`}>
+      <div className="form-login">
+        <span className="title1">Iniciar Sesión</span>
+        <div className="text01">Por favor inicia sesión para continuar</div>
 
-          <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
 
-          <div className="input-field01">
-              <input
-                type="email"
-                className="gmail"
-                placeholder="Correo electrónico"
-                value={email}
-                onChange={handleEmailChange}
-                required
-            
-            />
+          <div className="input-email">
             <img src="./src/assets/images/email.jpg" alt='' />
-
-            </div>
-
-
-
-            <div className="input-field02">
-              <input
-                type={showPassword ? 'text' : 'password'}
-                className="password"
-                placeholder="Contraseña"
-                value={password}
-                onChange={handlePasswordChange}
-                required
-              />
-              <div className='lock'>
-              <img src="./src/assets/images/lock.jpg" alt='' />
-              </div>
-              <div className='eye'>
-              <img src="./src/assets/images/eye.jpg" alt='' />
-              </div>
-            </div>
-
-            
-
-        
-          </form>
-
-          <div className="checkbox-text">
-            <a href="#" className="text2">
-              ¿Olvidaste tu contraseña?
-            </a>
+            <input
+              type="email"
+              className="gmail"
+              placeholder="Correo electrónico"
+              value={email}
+              onChange={handleEmailChange}
+              required
+            />
           </div>
-
-          <div className="input-field button01">
-            <input type="submit" value="Login" />
+          <div className="input-password">
+            <img src="./src/assets/images/lock.jpg" alt='' />
+            <input
+              type={showPassword ? 'text' : 'password'}
+              className="password"
+              placeholder="Contraseña"
+              value={password}
+              onChange={handlePasswordChange}
+              required
+            />
+            <img src="./src/assets/images/eye.jpg" alt='' />
           </div>
+        </form>
 
-          <div className="login-signup">
-            <span className="text03">
-              ¿No tienes una cuenta?
-              <NavLink to="/register">
-                ¡Regístrate!
-              </NavLink>
-            </span>
-          </div>
-          <div className="clear"></div>
-          <div className="text4">Conéctate a través de:</div>
+        <a className="text-contraseña">
+          ¿Olvidaste tu contraseña?
+        </a>
+
+        <div className="input-login-button01">
+          <input type="submit" value="Login" />
         </div>
+
+        <div className="login-signup">
+          <span className="text03">
+            ¿No tienes una cuenta?
+            <NavLink to="/register">
+              ¡Regístrate!
+            </NavLink>
+          </span>
+        </div>
+        <div className='fotter-adorno'></div>
       </div>
     </div>
   );
