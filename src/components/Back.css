@@ -1,0 +1,26 @@
+.back {
+    
+    display: flex;
+   
+    align-items: center;
+    
+  }
+  .logo img {
+    left: 0%;
+    right: 86.42%;
+    top: 0%;
+    bottom: 0.58%;
+    width: 52px;
+    height: 48px;
+  }
+  .volver {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+    margin: 0%;
+  }
+  

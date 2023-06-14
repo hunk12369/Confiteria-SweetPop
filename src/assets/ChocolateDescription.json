@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "src/assets/images/chocolate1.png",
+        "name":"Cakepop Simple",
+        "text":"pequeñas esferas hechas de chocolate que pueden estar rellenas o no. Pueden ser usadas como decoración o para añadir sabor y textura a postres, como helados, cupcakes, tartas, entre otros.",
+        "precio":"5 Bs C/u",
+        "ingredientes":"Bizcocho desmenuzado,Crema de queso o frosting,Palitos de piruleta o cake pop,Chocolate de cobertura para bañar los cake pops,Decoraciones opcionales como sprinkles, coco rallado, nueces picadas, etc.",
+        "Porcion":"1",
+        "Sabor":"Dulce",
+        "Tamaño":"Pequeño",
+        "Cantidad":"Unidad/Docena"
+        
+    },
+
+    {
+        "id": 2,
+        "imgsrc": "src/assets/images/chocolate3.png",
+        "name":"Ramos de Fresas",
+        "text":"Pequeño pastel en forma de bola que se coloca en un palito de piruleta y se decora con una capa de chocolate, glaseado, caramelos u otros ingredientes",
+        "precio":"20 Bs C/u",
+        "ingredientes":"Fresas frescas y maduras,Chocolate, Aceite vegetal o manteca de cacao, Opcional: chispas de colores, frutos secos picados, coco rallado, etc." ,
+        "Porcion":"12",
+        "Sabor":"Dulce",
+        "Tamaño":"Mediano",
+        "Cantidad":"Docena"
+        
+    },
+
+    {
+        "id": 3,
+        "imgsrc": "src/assets/images/chocolate2.png",
+        "name":"Cakepop con Diseño",
+        "text":"pequeñas porciones de chocolate que se disuelven rápidamente en agua caliente para crear una bebida de chocolate instantánea",
+        "precio":"7 Bs C/u",
+        "ingredientes":"Bizcocho desmenuzado,Crema de queso o frosting,Palitos de piruleta o cake pop,Chocolate de cobertura para bañar los cake pops,Decoraciones opcionales como sprinkles, coco rallado, nueces picadas, etc.",
+        "Porcion":"1",
+        "Sabor":"Dulce",
+        "Tamaño":"Pequeño",
+        "Cantidad":"Unidad/Docena"
+    },
+
+    {
+        "id": 4,
+        "imgsrc": "src/assets/images/chocolate5.png",
+        "name":"Ramo de Cakepop",
+        "text":"Pequeño pastel en forma de bola que se coloca en un palito de piruleta y se decora con una capa de chocolate, glaseado, caramelos ",
+        "precio":"20 Bs C/u",
+        "ingredientes":"Bizcocho desmenuzado,Crema de queso o frosting,Palitos de piruleta o cake pop,Chocolate de cobertura para bañar los cake pops,Decoraciones opcionales como sprinkles, coco rallado, nueces picadas, etc.",
+        "Porcion":"12",
+        "Sabor":"Dulce",
+        "Tamaño":"Pequeño",
+        "Cantidad":"Docena"
+    },
+
+    {
+        "id": 5,
+        "imgsrc": "src/assets/images/chocolate6.png",
+        "name":"Bombas Explosivas",
+        "text":"fresas cubiertas con chocolate que se presenta en forma de ramo de flores. En lugar de colocar las fresas en una bandeja, se insertan los palitos de las fresas en una base o recipiente para formar una estructura similar a un ramo de flores.",
+        "precio":"6 Bs C/u",
+        "ingredientes":"Chocolate para fundir,Maicena, fécula de patata o harina de arroz,Opcionales: extracto de vainilla, canela, especias, ralladura de limón o naranja para dar sabor a las bolitas,Opcional: malvaviscos, chispas de chocolate, cocoa",
+        "Porcion":"6",
+        "Sabor":"Dulce",
+        "Tamaño":"Pequeño",
+        "Cantidad":"Media Docena"
+    },
+
+    {
+        "id": 6,
+        "imgsrc": "src/assets/images/chocolate7.png",
+        "name":"Bolitas de Chocolates",
+        "text":"Pequeño pastel en forma de bola que se coloca en un palito de piruleta y se decora con una capa de chocolate",
+        "precio":"6 Bs C/u",
+        "ingredientes":"chocolate negro para fundir,mantequilla sin sal,crema de leche líquida,extracto de vainilla,cacao en polvo sin azúcar",
+        "Porcion":"1",
+        "Sabor":"Dulce",
+        "Tamaño":"Pequño",
+        "Cantidad":"Unidad//Docena"
+        
+    }
+]
