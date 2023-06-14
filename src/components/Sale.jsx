@@ -9,7 +9,7 @@ const Sale = () => {
     <div className='pantallaDescuento2'>
     <Back/>
         <div className='descuentos'>
-        <h15 className>Usuario X</h15>
+        <h1 className="Nombresito3">Usuario X</h1>
         <span className='sub'>¿Se te antoja algo?</span>
         </div>
       <div className='foto2Descuento'>

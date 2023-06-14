@@ -2,17 +2,15 @@ import React from 'react'
 import "./ChocolateCard.css"
 import chocolate from "../assets/ChocolateDescription.json"
 import OlasAdorno3 from './OlasAdorno3'
-import OlasAdorno from './OlasAdorno'
 import Back from './Back'
 const ChocolateCard = () => {
   return (
     <div className='ventaChocolates'>
         <OlasAdorno3/>
         <Back/>
-        
       {chocolate.map((item) => (
         <div className={item.id} key={item.id}>
-      <h7 className='tituloChoco'>{item.name}</h7>
+      <h1 className='tituloChoco'>{item.name}</h1>
       <div className='boca'>
       <p>{item.text}</p>
       <img src={item.imgsrc} alt="" />

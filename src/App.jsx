@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import ChocolateCard from './components/ChocolateCard'
 import Discount from './components/Discount'
-import Header from './components/Header'
-import Menu from './components/Menu'
-import ProductosDiscount from './components/ProductosDiscount'
+
 import Sale from './components/Sale'
 
 
@@ -12,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <Sale/>
+      <ChocolateCard/>
      
     </div>
   )

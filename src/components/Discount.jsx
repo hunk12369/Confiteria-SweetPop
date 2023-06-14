@@ -11,7 +11,7 @@ const Discount = () => {
     <Header/>
       <div className='descuentos'>
       <div><span>Descuentos</span></div>
-      <div><h15>SweetPop</h15></div>
+      <div><h1 className='nombresito'>SweetPop</h1></div>
       <div className='linea'></div>
       </div>
     <div className='foto2Descuento'>
