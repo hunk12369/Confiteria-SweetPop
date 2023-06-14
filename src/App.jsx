@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import ChocolateCard from './components/ChocolateCard'
-import Discount from './components/Discount'
+
 
 import Sale from './components/Sale'
+import VentaProductos from './pages/VentaProductos'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <ChocolateCard/>
+      <VentaProductos/>
      
     </div>
   )
