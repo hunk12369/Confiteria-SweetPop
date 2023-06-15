@@ -1,11 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import Category from '../components/Category'
-import { getProductos } from '../services/Productos';
+import { getCategorias } from '../services/Productos'
 
 const Categorias = () => {
-    
+    const [apiCategorias, setCategorias] = useState([]);
+    useEffect(() => {
+      getCategorias().then((data) => {setCategorias(data)})
+  
+    }, []);
     return (
-    <div><Category/></div>
+    <div>
+      {apiCategorias && apiCategorias[2] && console.log(apiCategorias[2].categoria)}
+      {apiCategorias && apiCategorias[2] && apiCategorias[2].categoria && (<Category categorias= {apiCategorias}/>)}
+      
+    </div>
   )
 }
 

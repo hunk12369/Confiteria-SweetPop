@@ -5,9 +5,11 @@ import FotterLogo from './FotterLogo'
 import Header from './Header'
 
 import OlasAdorno from './OlasAdorno'
-const Category = () => {
+const Category = (props) => {
+  const categoriasDatos= props.categorias;
   return (
     <div className='paginaCategorias'>
+        {console.log(categoriasDatos)}
         <div className='pantalla'>
         <div className='categorias'>
         <div><span>Categorias</span></div>
@@ -19,7 +21,7 @@ const Category = () => {
         </div>
         </div>
         <OlasAdorno/>
-        <Catalogue/>
+        <Catalogue categoriasDatos={categoriasDatos}/>
         <FotterLogo/>
         <div className='olasCategorias2'>
         <OlasAdorno/>

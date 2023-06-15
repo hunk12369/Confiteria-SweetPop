@@ -1,20 +1,19 @@
 import React from 'react'
 import "./Catalogue.css"
-const Catalogue = () => {
+const Catalogue = (props) => {
+  const categoriasDatos= props.categoriasDatos;
   return (
     <div className='fotos'>
-        <div className='C1'> 
-        <img src="src/assets/images/chocolates.jpg" alt="" />
-        </div>
-        <button> <p>Chocolates</p> </button>
-        <div className='C2'> 
-        <img src="src/assets/images/tortas.jpg" alt="" />
-        </div>
-        <button> <p>Tortas</p> </button>
-        <div className='C3'> 
-        <img src="src/assets/images/masitas.jpg" alt="" />
-        </div>
-        <button> <p>Masitas</p> </button>
+        {console.log(categoriasDatos[4])}
+        {categoriasDatos.map(item => (
+          <div>
+            <div className='C1'> 
+            <img src={`https://res.cloudinary.com/djvcgibog/image/upload/v1686105441/SweetPopImages/${item.url}`} alt="" />
+            </div>
+            <button> <p>{item.categoria}</p> </button>
+          </div>
+        ))}
+        
     </div>
 
   )

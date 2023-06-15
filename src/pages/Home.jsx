@@ -8,7 +8,7 @@ import { getProductos } from '../services/Productos'
 const Home = () => {
   const [apiProductos, setProductos] = useState([]);
   useEffect(() => {
-    getProductos().then((data) => {setProductos(data.results)})
+    getProductos().then((data) => {setProductos(data)})
 
   }, []);
   
@@ -24,7 +24,7 @@ const Home = () => {
         <img src="/src/assets/images/transparent-sanrio-cinnamoroll-cinnamon-animals-kawaii-cinnamoroll 2.png" alt="imagne del home"></img>
       </div>
       <OlasAdorno/>
-
+      {console.log(apiProductos)}
       <div className='servicios'>
         <Servicios/>
       </div>
