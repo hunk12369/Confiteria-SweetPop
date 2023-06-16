@@ -30,3 +30,12 @@ export const getOferta = async () => {
     const data = await response.json();
     return data;
 };
+export const getProductosCategorias = async (id="") => {
+    const id_categoria=id;
+    const apiUrl = `http://localhost/restphp/categorias.php?id=${id_categoria}`;
+    const apiTitle = `${apiUrl}`;
+    
+    const response = await fetch(apiTitle);
+    const data = await response.json();
+    return data;
+};

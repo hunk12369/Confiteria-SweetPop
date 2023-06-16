@@ -6,10 +6,10 @@ import Header from './Header'
 
 import OlasAdorno from './OlasAdorno'
 const Category = (props) => {
-  const categoriasDatos= props.categorias;
+  const categorias= props.categorias;
   return (
     <div className='paginaCategorias'>
-        {console.log(categoriasDatos)}
+        {console.log(categorias)}
         <div className='pantalla'>
         <div className='categorias'>
         <div><span>Categorias</span></div>
@@ -21,7 +21,7 @@ const Category = (props) => {
         </div>
         </div>
         <OlasAdorno/>
-        <Catalogue categoriasDatos={categoriasDatos}/>
+        <Catalogue categorias={categorias}/>
         <FotterLogo/>
         <div className='olasCategorias2'>
         <OlasAdorno/>

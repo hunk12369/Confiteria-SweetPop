@@ -10,7 +10,7 @@ const Ofertas = () => {
   return (
     <div> 
       {console.log(apiOfertas)}
-      {apiOfertas && apiOfertas[2] && (<Offer ofertas={apiOfertas}/>)}
+      {apiOfertas && apiOfertas[0] && (<Offer ofertas={apiOfertas}/>)}
     </div>
   )
 }

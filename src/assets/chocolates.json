@@ -1,41 +1,41 @@
 [
     {
         "id": 1,
-        "imgsrc": "src/assets/images/chocolate1.png",
+        "imgsrc": "../src/assets/images/chocolate1.png",
         "text":"Cakepop Simple"
     },
 
     {
         "id": 2,
-        "imgsrc": "src/assets/images/chocolate2.png",
+        "imgsrc": "../src/assets/images/chocolate2.png",
        
         "text":"Cakepop con Diseño"
     },
 
     {
         "id": 3,
-        "imgsrc": "src/assets/images/chocolate3.png",
+        "imgsrc": "../src/assets/images/chocolate3.png",
       
         "text":"Ramos de Fresas"
     },
 
     {
         "id": 4,
-        "imgsrc": "src/assets/images/chocolate5.png",
+        "imgsrc": "../src/assets/images/chocolate5.png",
         
         "text":"Ramo de Cakepop"
     },
 
     {
         "id": 5,
-        "imgsrc": "src/assets/images/chocolate6.png",
+        "imgsrc": "../src/assets/images/chocolate6.png",
         
         "text":"Bombas Explosivas"
     },
 
     {
         "id": 6,
-        "imgsrc": "src/assets/images/chocolate7.png",
+        "imgsrc": "../src/assets/images/chocolate7.png",
         
         "text":"Bolitas de Chocolates"
     }

@@ -10,8 +10,8 @@ const Categorias = () => {
     }, []);
     return (
     <div>
-      {apiCategorias && apiCategorias[2] && console.log(apiCategorias[2].categoria)}
-      {apiCategorias && apiCategorias[2] && apiCategorias[2].categoria && (<Category categorias= {apiCategorias}/>)}
+      {apiCategorias && apiCategorias[0] && console.log(apiCategorias[2].categoria)}
+      {apiCategorias && apiCategorias[0] && apiCategorias[0].categoria && (<Category categorias= {apiCategorias}/>)}
       
     </div>
   )

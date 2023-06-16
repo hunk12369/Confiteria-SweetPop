@@ -11,6 +11,8 @@ import Register from './pages/Register.jsx'
 import Categorias from './pages/Categorias.jsx'
 import Header from './components/Header.jsx'
 import NotFound from './pages/NotFound'
+import ChocolateCard from './components/ChocolateCard'
+import VentaProductos from './pages/VentaProductos'
 function App() {
 const [count, setCount] = useState(0)
   return (
@@ -24,11 +26,15 @@ const [count, setCount] = useState(0)
         <Route path='/' element={<Home/>}/>
         <Route path='/contactos' element={<Contactos/>}/>
         <Route path='/descuentos' element={<Descuento/>}/>
+        
         <Route path='/ofertas' element={<Ofertas/>}/>
         <Route path='/reseñas' element={<Resenas/>}/>
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/categorias' element={<Categorias/>}/>
+        <Route path='/categorias/:slug' element={<VentaProductos/>}/>
+        <Route path='/categorias/masitas/masitaCard' element={<ChocolateCard/>}/>
+
         <Route path='*' element={<NotFound/>}/>
         
       </Routes>

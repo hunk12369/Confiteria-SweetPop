@@ -11,7 +11,7 @@ const Descuento = () => {
   return (
     <div>
       {console.log(apiDescuentos)}
-      {apiDescuentos && apiDescuentos[2] && (<Discount descuentos={apiDescuentos}/>)}
+      {apiDescuentos && apiDescuentos[0] && (<Discount descuentos={apiDescuentos}/>)}
     </div>
   )
 }
