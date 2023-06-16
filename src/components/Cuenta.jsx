@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Cuenta.css';
 import Fotter1 from './Fotter1';
 import { NavLink } from 'react-router-dom';
+import { postUsuario } from '../services/Productos';
 
 
 const Cuenta = () => {
@@ -14,6 +15,7 @@ const Cuenta = () => {
   const [contraseña, setcontraseña] = useState('');
   
   
+    
 
 
 
@@ -56,8 +58,15 @@ const Cuenta = () => {
     console.log('Email:', email);
     console.log('Password:', password);
     console.log('contraseña:', contraseña);
+    const usuarioNuevo = {
+      nombre: nombre,
+      telefono: phone,
+      correo_electronico: email,
+      contrasena: password,
+    };
     
-    
+    console.log(usuarioNuevo);
+    postUsuario(usuarioNuevo);
   };
 
   return (
@@ -131,11 +140,11 @@ const Cuenta = () => {
             <img src="./src/assets/images/eye.jpg" alt='' />
           </div>
       
+          <div className="input-field button">
+            <input type="submit" value="Registrarse" />
+          </div>
         </form>
 
-        <div className="input-field button">
-          <input type="submit" value="Registrarse" />
-        </div>
 
         <div className="cuenta-login">
           <span>

@@ -64,15 +64,16 @@ const Login = () => {
             />
             <img src="./src/assets/images/eye.jpg" alt='' />
           </div>
+          
+          <a className="text-contraseña">
+            ¿Olvidaste tu contraseña?
+          </a>
+
+          <div className="input-login-button01">
+            <input type="submit" value="Login" />
+          </div>
         </form>
 
-        <a className="text-contraseña">
-          ¿Olvidaste tu contraseña?
-        </a>
-
-        <div className="input-login-button01">
-          <input type="submit" value="Login" />
-        </div>
 
         <div className="login-signup">
           <span className="text03">
