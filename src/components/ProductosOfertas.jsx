@@ -2,18 +2,18 @@ import React from 'react';
 import "./ProductosOfertas.css";
 import producto from "../assets/producto.json";
 
-const ProductosOfertas = () => {
+const ProductosOfertas = (props) => {
+  const ofertas=props.ofertas;
   return (
     <div className='CatalogoOfertas'>
-      {producto.map((item) => (
-        <div className={`ct${item.id}`} key={item.id}>
+      {ofertas.map((item) => (
+        <div className={`cardProductoOferta`} key={item.id}>
           <br></br>
-          <div className={`p${item.id}`}>
-            <img src={item.imgsrc} alt="" />
-            <p>{item.name}</p>
+          <div className={`productoOferta`}>
+            <img src={`https://res.cloudinary.com/djvcgibog/image/upload/v1686105441/SweetPopImages/${item.Url}`} alt="" />
+            <p>{item.Producto}</p>
           </div>
-          <p>{item.text}</p>
-           <img src={item.imgsrc2} alt="" />
+          <p>{item.Descripcion}</p>
         </div>
       ))}
     </div>

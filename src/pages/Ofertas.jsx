@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Offer from '../components/Offer'
-import ProductosOfertas from '../components/ProductosOfertas'
+import { getOferta } from '../services/Productos';
 const Ofertas = () => {
+  const [apiOfertas, setOfertas] = useState([]);
+  useEffect(() => {
+    getOferta().then((data) => {setOfertas(data)})
+
+  }, []);
   return (
     <div> 
-      <Offer/>
+      {console.log(apiOfertas)}
+      {apiOfertas && apiOfertas[2] && (<Offer ofertas={apiOfertas}/>)}
     </div>
   )
 }
