@@ -12,11 +12,10 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <div className='logo'>
       <NavLink to="/">
-        <img src="src/assets/images/logo.jpg" alt="" />
-      </NavLink>
+      <div className='logo'>
       </div>
+      </NavLink>
       <NavLink to="/login">
         <button>
           <h3>Iniciar sesión</h3>

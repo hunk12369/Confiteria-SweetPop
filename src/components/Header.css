@@ -34,7 +34,8 @@
     border: 2px solid #191919;
   }
   
-  .logo img {
+  .logo {
+    background-image: url("/src/assets/images/logo.jpg");
     left: 0%;
     right: 86.42%;
     top: 0%;
