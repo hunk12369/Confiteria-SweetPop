@@ -14,3 +14,11 @@ export const getCategorias = async () => {
     const data = await response.json();
     return data;
 };
+export const getDescuento = async () => {
+    const apiUrl = "http://localhost/restphp/descuentos.php";
+    const apiTitle = `${apiUrl}`;
+    
+    const response = await fetch(apiTitle);
+    const data = await response.json();
+    return data;
+};

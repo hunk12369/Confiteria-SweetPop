@@ -5,7 +5,7 @@
    
     z-index: 9999;
     background-color: #FF91A4;
-    height: 30%;
+    height: 87%;
     width: 100%;
   }
   .boneto p{
@@ -20,8 +20,9 @@
   
   .menuContent {
     position: absolute;
-    top: 35%;
+    top: 43%;
     left: 50%;
+    
     transform: translate(-50%, -50%);
     background: #FF91A4;
     padding-top: 140px;

@@ -2,17 +2,19 @@ import React from 'react'
 import "./Servicios.css"
 import SliderGeneral from './SliderGeneral'
 //json de categorias
-import dataCategorias from '../assets/dataCategorias';
+
 import dataDescuentos from "../assets/dataDescuentos.json";
 import dataOfertas from "../assets/dataOfertas.json";
 
-const Servicios = () => {
+const Servicios = (props) => {
+  const categorias=props.categorias;
   return (
     <div>
+        {console.log(categorias)}
         <div className='titulos'>
             Categorias
         </div>
-        <SliderGeneral categorias={dataCategorias} puntos={true} pagina="/categorias"/>
+        <SliderGeneral categorias={categorias} puntos={true} pagina="/categorias"/>
         <div className='titulos'>
             Descuentos
         </div>

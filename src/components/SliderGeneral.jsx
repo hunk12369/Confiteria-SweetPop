@@ -8,7 +8,7 @@ import "./SliderGeneral.css"
 import { NavLink } from 'react-router-dom';
 
 const SliderGeneral = (props) => {
-  const {categorias}= props;
+  const categorias= props.categorias;
   const puntos=props.puntos;
   const flechas=props.flechas;
   const pagina=props.pagina;
@@ -73,13 +73,14 @@ const SliderGeneral = (props) => {
   
   return (
     <div className='tarjeta'>
-          <Slider {...configuracion}>
-          {categorias.map(item => (
-              <NavLink to={pagina} key={item.id}>
-                <img key={item.id} src={item.linkImg} alt={item.descripcion} />
-              </NavLink>
-          ))}
-          </Slider>
+      {console.log(categorias)}
+      <Slider {...configuracion}>
+      {categorias.map(item => (
+          <NavLink to={pagina} key={item.id}>
+            <img key={item.id} src={`https://res.cloudinary.com/djvcgibog/image/upload/v1686105441/SweetPopImages/${item.url}`} alt={item.nombre} />
+          </NavLink>
+      ))}
+      </Slider>
     </div>
   )
 }
