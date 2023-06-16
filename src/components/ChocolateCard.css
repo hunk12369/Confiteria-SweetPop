@@ -31,6 +31,10 @@ color: #FFFFFF;
     flex-direction: column;
     align-items: center;
 }
+.boca img {
+    width: 90%;
+    border-radius: 20%;
+}
 .porciones{
     display: flex;
     flex-direction: column;

@@ -33,7 +33,7 @@ const [count, setCount] = useState(0)
         <Route path='/register' element={<Register/>}/>
         <Route path='/categorias' element={<Categorias/>}/>
         <Route path='/categorias/:slug' element={<VentaProductos/>}/>
-        <Route path='/categorias/masitas/masitaCard' element={<ChocolateCard/>}/>
+        <Route path='/categorias/:slug/:slug' element={<ChocolateCard/>}/>
 
         <Route path='*' element={<NotFound/>}/>
         

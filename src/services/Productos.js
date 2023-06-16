@@ -1,5 +1,5 @@
-export const getProductos = async () => {
-    const apiUrl = "http://localhost/restphp/productos.php";
+export const getProductos = async (id="") => {
+    const apiUrl = `http://localhost/restphp/productos.php?id=${id}`;
     const apiTitle = `${apiUrl}`;
     
     const response = await fetch(apiTitle);

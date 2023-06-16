@@ -5,7 +5,8 @@
     align-items: center;
     
   }
-  .logo img {
+  .logo-back{
+    background-image: url("/src/assets/images/atras.png");
     left: 0%;
     right: 86.42%;
     top: 0%;
