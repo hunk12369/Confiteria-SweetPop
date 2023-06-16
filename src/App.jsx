@@ -1,11 +1,8 @@
 import { useState } from 'react'
+import Bot from './components/Bot'
 import Contact from './components/Contact'
-import Fotter from './components/Fotter'
-import Header from './components/Header'
-import Information from './components/Information'
-import NetworkButtons from './components/NetworkButtons'
-import Login from './components/Login'
-import Cuenta from './components/Cuenta'
+
+
 
 
 function App() {
@@ -13,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Cuenta/>
+      <Contact/>
     </>
   )
 }

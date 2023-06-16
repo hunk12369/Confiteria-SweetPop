@@ -1,9 +1,13 @@
 import React from 'react'
 import "./Contact.css"
+import Bot from './Bot'
+import Header from './Header'
 const Contact = () => {
   return (
     <div className='pagina'>
+      
           <div className='pantalla'>
+            <Bot/>
         <h1>Contactanos</h1>
         <h2>SweetPop</h2>
         <div className='linea'></div>     

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import Fotter1 from './Fotter1';
+import Bot from './Bot';
 
 
 const Login = () => {
@@ -34,6 +35,7 @@ const Login = () => {
 
   return (
     <div className="container">
+      <Bot/>
       <div className="logo">
         <img src="./src/assets/images/logo.jpg" alt="" />
       </div>

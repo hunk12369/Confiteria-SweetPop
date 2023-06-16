@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Definición del conjunto de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Configuración de la compatibilidad con Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Configuración de la visualización en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Chat Bot</title>
+    <!-- Enlace a la hoja de estilos para la interfaz del chat -->
+    <link rel="stylesheet" href="src/components/Chat.css">
+    <!-- Enlace a la hoja de estilos para la página principal -->
+    <link rel="stylesheet" href="src/components/Home1.css">
+    <!-- Enlace a la hoja de estilos de FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    
+    <!-- Bloque de la barra de chat -->
+    <div class="chat-bar-collapsible">
+        <!-- Botón de la barra de chat -->
+        <button id="chat-button" type="button" class="collapsible">Sweet Pop
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <!-- Contenido de la barra de chat -->
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Contenedor de mensajes -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Mensajes -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- Cuadro de entrada del usuario -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Toca 'Enter' para enviar un mensaje">
+                                <p></p>
+                            </div>
+                            <!-- Iconos de la barra de chat -->
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                    <!-- Icono del botón de enviar -->
+                                <i id="chat-icon" style="color: rgb(194, 34, 128);" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+                        <!-- Espacio inferior de la barra de chat -->
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<!-- Inclusión de la biblioteca jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="src/components/Responses.js"></script>
+<script src="src/components/Chat.js"></script>
+
+</html>
