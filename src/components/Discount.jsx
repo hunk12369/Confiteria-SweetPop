@@ -4,7 +4,8 @@ import Header from './Header'
 import OlasAdorno from './OlasAdorno'
 import ProductosDiscount from './ProductosDiscount'
 
-const Discount = () => {
+const Discount = (props) => {
+  const descuentos = props.descuentos;
   return (
     <div className='paginaDescuento'>
   <div className='pantallaDescuento'>
@@ -18,7 +19,7 @@ const Discount = () => {
     </div>
     </div>
     <OlasAdorno/>
-    <ProductosDiscount/>
+    <ProductosDiscount descuentos={descuentos}/>
     <div className='olasDes'>
     <OlasAdorno/>
     </div>

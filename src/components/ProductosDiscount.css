@@ -38,6 +38,7 @@
     line-height: 36px;
     color: white;
     width: 70%;
+    margin-left: 50px;
   }
   
   
@@ -54,15 +55,20 @@
   }
   .fotitos img {
     position: absolute;
+    width: 80%;
+    height: 80%;
   }
   
   .fotitos img:last-child {
     z-index: 1;
     bottom: 20px;
     right: 20px;
+    width: 40%;
+    height: 30%;
     
   }
-  
+
+    
   .de2 {
     padding: 30px 0 30px 0;
     margin: 40px 0 40px 0;

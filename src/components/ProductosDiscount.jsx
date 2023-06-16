@@ -1,25 +1,25 @@
 import React from 'react'
 import "./ProductosDiscount.css"
 import producto from "../assets/descuento.json"
-const ProductosDiscount = () => {
+const ProductosDiscount = (props) => {
+  const descuentos = props.descuentos;
   return (
     <div className='descuento'>
-      {producto.map((item) => (
+      {descuentos.map((item) => (
         <div className={`de${item.id}`} key={item.id}>
           <br></br>
           <div className='fotitos'>
-          <img src={item.imgsrc} alt="" />
-            <img src={item.imgsrc2} alt="" />
+            <img key={item.id} src={`https://res.cloudinary.com/djvcgibog/image/upload/v1686105441/SweetPopImages/${item.Url}`} alt="" />
+            <img src="src/assets/images/30porciento.png" alt="" />
           </div>
-            <br></br>
-          
-          
+          <br></br>
+
           <br></br>
           
-          <button>{item.name}</button>
+          <button>{item.Producto}</button>
           <br></br>
           <div className='tez'>
-          <p>{item.text}</p>
+          <p>{item.Descripcion}</p>
           </div>
         </div>
       ))}
