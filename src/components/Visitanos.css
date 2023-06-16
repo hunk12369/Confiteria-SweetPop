@@ -1,0 +1,49 @@
+.botones{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+    top: 1708px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textoA{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: black;
+}
+.titulo{
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56%;
+    letter-spacing: 1px;
+    color: #BE91CA;
+    }
+    .linea5{
+    border: 3px solid #BE91CA;
+    }
+    
+    .Localizacion{
+    Width:90%;
+    Height:56px;
+    Top:2000px;
+    Left:23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   font-family: 'Newake';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    gap: 10px;
+    color: #FFFBF5;
+    background: #985FA6;
+    border-radius: 8px;}

@@ -12,7 +12,7 @@ const Contact = () => {
     <div className='relleno1'>
         <img src="src/assets/images/1.jpg" alt="" />
     </div>
-    <div className='relleno2'>
+    <div className='relleno2B'>
         <img src="src/assets/images/masas1.jpg" alt="" />
     </div>
     <img src="src/assets/images/2.jpg" alt=''/>

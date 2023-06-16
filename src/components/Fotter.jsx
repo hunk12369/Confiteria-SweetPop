@@ -4,6 +4,7 @@ const Fotter = () => {
   return (
     <div className='datos'>
         <div className='ubicacion'>
+          <img src='src/assets/images/LOGO SP.png' alt=''/>
         <b>av.Hernando Siles,calle 15 de Calacoto</b>
         <p>72551345</p>
         <p>mailto:sweetpop.lapaz@gmail.com</p>
