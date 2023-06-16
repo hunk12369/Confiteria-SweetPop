@@ -1,0 +1,98 @@
+.ventaChocolates{
+    background: #BE91CA;
+}
+.ventaChocolates p{ 
+letter-spacing: 1px;
+padding: 0 40px 40px 40px;
+
+font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+letter-spacing: 1px;
+color: #FFFFFF;
+}
+.ventaChocolates span{
+    font-size: 25px;
+}
+.tituloChoco{
+    font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 160%;
+letter-spacing: 1px;
+
+color: #FFFFFF;
+}
+.boca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.porciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: flex-start;
+    color: #000000;
+    font-family: 'Yusei Magic';
+font-style: normal;
+font-size: 30px;
+line-height: 160%;
+letter-spacing: 1px;
+}
+.boneneto{
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    padding-bottom: 50px;
+}
+.porciones span{
+    margin-left: 10px; 
+}
+.cuadritoM{
+    background: #784287;
+border-radius: 170px;
+height: 89.22477048438513px;
+width: 18.821008870429903px;
+}
+.ingre{
+    font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 160%;
+/* or 48px */
+
+letter-spacing: 1px;
+
+color: #784287;
+}
+.precioChoco{
+    background: #FFBBE0;
+border: 5px solid #784287;
+border-radius: 80px;
+height: 128px;
+width: 193.85748291015625px;
+border-radius: 80px;
+display: flex;
+align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+.precioChoco span{
+    font-family: 'Yusei Magic';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+/* or 35px */
+
+letter-spacing: 1px;
+
+color: #784287;
+}

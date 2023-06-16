@@ -1,0 +1,28 @@
+.venta{
+    margin: 20px 20px 20px 20px;
+  }
+  
+  
+    .venta p {
+      font-family: 'Yusei Magic';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 60px;
+      text-align: center;
+      color: #DF4B81;
+
+    }
+    .fotetos{
+        background: #FFFFFF;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }    
+   .fotetos img{
+    margin-top: 30px;
+   }
+    
